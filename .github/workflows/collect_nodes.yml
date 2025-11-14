@@ -1,0 +1,51 @@
+name: 节点采集
+
+on:
+  schedule:
+    # 每天 UTC 时间 00:00 运行（北京时间 08:00）
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+      
+    - name: 设置 Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: 安装依赖
+      run: |
+        pip install -r requirements.txt
+        
+    - name: 运行节点采集脚本
+      run: |
+        cd PY
+        python3 综合节点采集器.py
+        
+    - name: 检查文件是否生成
+      run: |
+        ls -la ../nodes_base64.txt ../clash.yaml ../nodes.txt || exit 1
+        
+    - name: 提交文件到仓库
+      run: |
+        cd ..
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add nodes_base64.txt clash.yaml nodes.txt
+        if git diff --staged --quiet; then
+          echo "没有文件需要提交"
+        else
+          git commit -m "自动更新节点文件 - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
+
