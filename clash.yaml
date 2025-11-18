@@ -1,0 +1,3682 @@
+dns:
+  enable: true
+  nameserver:
+  - 119.29.29.29
+  - 223.5.5.5
+  fallback:
+  - 8.8.8.8
+  - 1.1.1.1
+proxies:
+- name: 181
+  type: vmess
+  server: 217.138.197.173
+  port: 443
+  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.29870011.xyz
+  servername: www.29870011.xyz
+- name: 178
+  type: vmess
+  server: 85.206.168.71
+  port: 30000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.93271626.xyz
+  servername: www.93271626.xyz
+- name: 470
+  type: vmess
+  server: 120.210.205.59
+  port: 52002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 186
+  type: vmess
+  server: 89.163.247.25
+  port: 30001
+  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.50360235.xyz
+  servername: www.50360235.xyz
+- name: 723
+  type: vmess
+  server: 121.199.163.86
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 198
+  type: vmess
+  server: 185.128.26.67
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.92676025.xyz
+  servername: www.92676025.xyz
+- name: 158
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 264
+  type: vmess
+  server: 23.225.165.243
+  port: 36000
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.21065360.xyz
+  servername: www.21065360.xyz
+- name: 185
+  type: vmess
+  server: 91.132.197.5
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.29794192.xyz
+  servername: www.29794192.xyz
+- name: 190
+  type: vmess
+  server: 193.29.107.238
+  port: 30000
+  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.88717328.xyz
+  servername: www.88717328.xyz
+- name: London 6
+  type: trojan
+  server: settled-crawdad.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: settled-crawdad.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 5
+  type: trojan
+  server: rich-gnu.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: rich-gnu.cougar315.yachts
+  skip-cert-verify: true
+- name: London Pro 5
+  type: trojan
+  server: concise-beagle.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: concise-beagle.cougar315.yachts
+  skip-cert-verify: true
+- name: Ashburn 4
+  type: trojan
+  server: wealthy-moray.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: wealthy-moray.cougar315.yachts
+  skip-cert-verify: true
+- name: Helsinki 7
+  type: trojan
+  server: fancy-quagga.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: fancy-quagga.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago 3
+  type: trojan
+  server: glowing-monkfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glowing-monkfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Bangkok Pro 1
+  type: trojan
+  server: clever-mosquito.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: clever-mosquito.cougar315.yachts
+  skip-cert-verify: true
+- name: Tokyo 1
+  type: trojan
+  server: massive-coyote.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: massive-coyote.cougar315.yachts
+  skip-cert-verify: true
+- name: Mumbai Pro 1
+  type: trojan
+  server: flowing-glowworm.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: flowing-glowworm.cougar315.yachts
+  skip-cert-verify: true
+- name: Helsinki Pro 7
+  type: trojan
+  server: fancy-quagga.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: fancy-quagga.cougar315.yachts
+  skip-cert-verify: true
+- name: Seoul Pro 4
+  type: trojan
+  server: renewed-gecko.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: renewed-gecko.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt 14
+  type: trojan
+  server: mint-lion.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: mint-lion.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt 13
+  type: trojan
+  server: sweeping-satyr.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: sweeping-satyr.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore 6
+  type: trojan
+  server: still-koi.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: still-koi.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney Pro 4
+  type: trojan
+  server: saved-ghoul.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: saved-ghoul.cougar315.yachts
+  skip-cert-verify: true
+- name: Amsterdam Pro 2
+  type: trojan
+  server: known-manatee.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: known-manatee.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 6
+  type: trojan
+  server: still-koi.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: still-koi.cougar315.yachts
+  skip-cert-verify: true
+- name: Montreal Pro 3
+  type: trojan
+  server: deciding-wombat.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: deciding-wombat.cougar315.yachts
+  skip-cert-verify: true
+- name: London 5
+  type: trojan
+  server: concise-beagle.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: concise-beagle.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 8
+  type: trojan
+  server: musical-blowfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: musical-blowfish.cougar315.yachts
+  skip-cert-verify: true
+- name: London Pro 6
+  type: trojan
+  server: settled-crawdad.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: settled-crawdad.cougar315.yachts
+  skip-cert-verify: true
+- name: Tokyo Pro 1
+  type: trojan
+  server: massive-coyote.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: massive-coyote.cougar315.yachts
+  skip-cert-verify: true
+- name: Manama Pro 1
+  type: trojan
+  server: witty-hyena.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: witty-hyena.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago Pro 3
+  type: trojan
+  server: glowing-monkfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glowing-monkfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 9
+  type: trojan
+  server: free-sloth.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: free-sloth.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 3
+  type: trojan
+  server: hopeful-vervet.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: hopeful-vervet.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 4
+  type: trojan
+  server: large-piranha.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: large-piranha.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt Pro 13
+  type: trojan
+  server: sweeping-satyr.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: sweeping-satyr.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt 12
+  type: trojan
+  server: mature-lemming.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: mature-lemming.cougar315.yachts
+  skip-cert-verify: true
+- name: Warsaw Pro 2
+  type: trojan
+  server: glad-caribou.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glad-caribou.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago Pro 5
+  type: trojan
+  server: star-crayfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: star-crayfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney Pro 2
+  type: trojan
+  server: quiet-wildcat.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: quiet-wildcat.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt Pro 12
+  type: trojan
+  server: mature-lemming.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: mature-lemming.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore 8
+  type: trojan
+  server: musical-blowfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: musical-blowfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago Pro 7
+  type: trojan
+  server: smiling-dory.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: smiling-dory.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt Pro 14
+  type: trojan
+  server: mint-lion.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: mint-lion.cougar315.yachts
+  skip-cert-verify: true
+- name: Amsterdam 2
+  type: trojan
+  server: known-manatee.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: known-manatee.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt Pro 4
+  type: trojan
+  server: guided-gecko.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: guided-gecko.cougar315.yachts
+  skip-cert-verify: true
+- name: Helsinki Pro 6
+  type: trojan
+  server: glad-serval.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glad-serval.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt 11
+  type: trojan
+  server: verified-crayfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: verified-crayfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Ashburn Pro 4
+  type: trojan
+  server: wealthy-moray.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: wealthy-moray.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney 3
+  type: trojan
+  server: diverse-stud.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: diverse-stud.cougar315.yachts
+  skip-cert-verify: true
+- name: Fujairah Pro 1
+  type: trojan
+  server: ace-catfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: ace-catfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt Pro 11
+  type: trojan
+  server: verified-crayfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: verified-crayfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney Pro 3
+  type: trojan
+  server: diverse-stud.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: diverse-stud.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago Pro 6
+  type: trojan
+  server: flexible-weevil.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: flexible-weevil.cougar315.yachts
+  skip-cert-verify: true
+- name: Moscow Pro 3
+  type: trojan
+  server: pet-mako.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: pet-mako.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt 4
+  type: trojan
+  server: guided-gecko.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: guided-gecko.cougar315.yachts
+  skip-cert-verify: true
+- name: Warsaw 2
+  type: trojan
+  server: glad-caribou.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glad-caribou.cougar315.yachts
+  skip-cert-verify: true
+- name: Karachi Pro 2
+  type: trojan
+  server: glad-lioness.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glad-lioness.cougar315.yachts
+  skip-cert-verify: true
+- name: Ashburn Pro 1
+  type: trojan
+  server: relaxed-ray.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: relaxed-ray.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney 4
+  type: trojan
+  server: saved-ghoul.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: saved-ghoul.cougar315.yachts
+  skip-cert-verify: true
+- name: Riyadh Pro 1
+  type: trojan
+  server: clear-hawk.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: clear-hawk.cougar315.yachts
+  skip-cert-verify: true
+- name: Kathmandu Pro 1
+  type: trojan
+  server: main-gobbler.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: main-gobbler.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago 7
+  type: trojan
+  server: smiling-dory.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: smiling-dory.cougar315.yachts
+  skip-cert-verify: true
+- name: Florence Pro 1
+  type: trojan
+  server: real-monitor.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: real-monitor.cougar315.yachts
+  skip-cert-verify: true
+- name: Seoul Pro 2
+  type: trojan
+  server: daring-dinosaur.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: daring-dinosaur.cougar315.yachts
+  skip-cert-verify: true
+- name: Barcelona Pro 1
+  type: trojan
+  server: major-insect.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: major-insect.cougar315.yachts
+  skip-cert-verify: true
+- name: Ashburn 1
+  type: trojan
+  server: relaxed-ray.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: relaxed-ray.cougar315.yachts
+  skip-cert-verify: true
+- name: Helsinki 6
+  type: trojan
+  server: glad-serval.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glad-serval.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney Pro 1
+  type: trojan
+  server: fine-pheasant.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: fine-pheasant.cougar315.yachts
+  skip-cert-verify: true
+- name: HK-香港-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 15198
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: HK-香港-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 20322
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: US-美国-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 10741
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: US-美国-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 44167
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: DE-德国-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 29909
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: DE-德国-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 48429
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: UK-英国-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 16303
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: UK-英国-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 10540
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: JP-日本-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 11482
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: JP-日本-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 53054
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: TW-台湾-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 15838
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: TW-台湾-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 10279
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: TM-新加坡-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 11889
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: TM-新加坡-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 54091
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: TM-马来西亚-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 11889
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: TM-马来西亚-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 54091
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: FLB-菲律宾-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 35541
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: FLB-菲律宾-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 47140
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: TG-泰国-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 25770
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: TG-泰国-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 20534
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: VN-越南-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 25770
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: VN-越南-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 20534
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: KH-柬埔寨-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 36432
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: KH-柬埔寨-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 57038
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: FR-法国-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 49212
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: FR-法国-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 39980
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: KR-韩国-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 49212
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: KR-韩国-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 39980
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: RU-土耳其-快速专线1
+  type: ss
+  server: shrimp-door-9527.gym0boy.com
+  port: 47708
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: RU-土耳其-快速专线2
+  type: ss
+  server: mali-hong.gym0boy.com
+  port: 52562
+  cipher: aes-128-gcm
+  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  udp: true
+- name: swiss
+  type: ss
+  server: 158.173.152.168
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: japan
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us_seattle
+  type: ss
+  server: 158.173.153.3
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us3
+  type: ss
+  server: 173.244.56.8
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: uk_manchester
+  type: ss
+  server: 141.98.101.178
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: uk
+  type: ss
+  server: 158.173.24.69
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us-newjersey
+  type: ss
+  server: 37.19.198.243
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: ca_vancouver
+  type: ss
+  server: 149.22.95.123
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us_south_west
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: nl_amsterdam
+  type: ss
+  server: 158.173.20.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 荷兰-V6|03 0.5x-1B
+  type: vmess
+  server: naran3.616626.xyz
+  port: 22308
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇹🇼 台湾中华电信-100MBPS-1D
+  type: vmess
+  server: v-tw.camael.top
+  port: 24920
+  uuid: d870840f-e2fd-45a9-a237-30f30e1d878d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pull.free.video.10010.com
+- name: 🇯🇵 日本-V6|05-1A
+  type: vmess
+  server: greenip2.668918.xyz
+  port: 22307
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|06-1D
+  type: vmess
+  server: greenhk0.616626.xyz
+  port: 10505
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|02 0.5x-1D
+  type: vmess
+  server: netcp2.616626.xyz
+  port: 22306
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|03 0.5x-1C
+  type: vmess
+  server: naran3.616626.xyz
+  port: 22308
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|06-1D
+  type: vmess
+  server: greenip3.668918.xyz
+  port: 22308
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|05-1D
+  type: vmess
+  server: greenip2.668918.xyz
+  port: 22307
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|06-1B
+  type: vmess
+  server: greenip3.668918.xyz
+  port: 22308
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 美国NO.1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45052
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇦🇺 1.5xIEPL专线 澳大利亚2-1A
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35666
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 1.5xIEPL专线 美国原生2-1A
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35659
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 美国-V6|01-1D
+  type: vmess
+  server: dmitv61.616626.xyz
+  port: 22305
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 新加坡NO.2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45055
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 1.5xIEPL专线 新加坡3-1A
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35661
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 2xIEPL专线 香港3-1B
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35660
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 1.5xIEPL专线 美国原生1-1A
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22257
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|01 0.5x-1B
+  type: vmess
+  server: naran1.616626.xyz
+  port: 22305
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|08-1C
+  type: vmess
+  server: greenhk2.616626.xyz
+  port: 10507
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇨🇦 加拿大2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45065
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 新加坡-1GBPS-1C
+  type: vmess
+  server: v-sg.camael.top
+  port: 9527
+  uuid: 600bb889-cea1-4f39-b0d7-0b92e56a278d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|04-1B
+  type: vmess
+  server: greenip1.668918.xyz
+  port: 22306
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 美国-V6|01-1C
+  type: vmess
+  server: dmitv61.616626.xyz
+  port: 22305
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|07-1A
+  type: vmess
+  server: greenhk1.616626.xyz
+  port: 10506
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|01 0.5x-1D
+  type: vmess
+  server: netcp1.616626.xyz
+  port: 22305
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇫🇷 法国2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45071
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 1.5xIEPL专线 新加坡1-1A
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22252
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|01 0.5x-1A
+  type: vmess
+  server: netcp1.616626.xyz
+  port: 22305
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 新加坡-1GBPS-1F
+  type: vmess
+  server: v-sg.camael.top
+  port: 9527
+  uuid: f472af86-3b22-4d24-9fbe-67f1f0e44a85
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇮🇳 1.5xIEPL专线 印度1-1B
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22256
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇮🇳 印度1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45074
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇮🇳 1.5xIEPL专线 印度3-1B
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35665
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 1.5xIEPL专线 美国原生1-1B
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22257
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|04 0.5x-1B
+  type: vmess
+  server: naran4.616626.xyz
+  port: 22310
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 1.5xIEPL专线 美国2-1A
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35664
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇹🇼 台湾中华电信-100MBPS-1F
+  type: vmess
+  server: v-tw.camael.top
+  port: 24920
+  uuid: f472af86-3b22-4d24-9fbe-67f1f0e44a85
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pull.free.video.10010.com
+- name: 🇩🇪 德国-V6|03 0.5x-1D
+  type: vmess
+  server: netcp3.616626.xyz
+  port: 22307
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港NO.2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45051
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|07-1D
+  type: vmess
+  server: vpsjp1.668918.xyz
+  port: 22306
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 2xIEPL专线 香港1-1A
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22250
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 新加坡-1GBPS-1B
+  type: vmess
+  server: v-sg.camael.top
+  port: 9527
+  uuid: b0af47dc-6049-47ec-b03c-b5ac43f74d00
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 美国-V6|01-1B
+  type: vmess
+  server: dmitv61.616626.xyz
+  port: 22305
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇮🇳 1.5xIEPL专线 印度3-1A
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35665
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 新加坡NO.1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45054
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|07-1C
+  type: vmess
+  server: vpsjp1.668918.xyz
+  port: 22306
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇹🇼 台湾1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45078
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇰🇷 韩国 专线NO1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45076
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|04-1D
+  type: vmess
+  server: greenip1.668918.xyz
+  port: 22306
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇦🇺 澳大利亚原生2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45063
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|05-1C
+  type: vmess
+  server: greenip2.668918.xyz
+  port: 22307
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 1.5xIEPL专线 美国2-1B
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35664
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 2xIEPL专线 日本1-1A
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22253
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 新加坡-1GBPS-1D
+  type: vmess
+  server: v-sg.camael.top
+  port: 9527
+  uuid: d870840f-e2fd-45a9-a237-30f30e1d878d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇹🇼 台湾中华电信-100MBPS-1G
+  type: vmess
+  server: v-tw.camael.top
+  port: 24920
+  uuid: 7491b04a-43ed-44c1-9c4c-6c4150c42827
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pull.free.video.10010.com
+- name: 🇯🇵 日本NO.1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45056
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 美国-V6|01 2-1D
+  type: vmess
+  server: crun6.668918.xyz
+  port: 22308
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇮🇳 1.5xIEPL专线 印度1-1A
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22256
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|02 0.5x-1D
+  type: vmess
+  server: naran2.616626.xyz
+  port: 22306
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇹🇼 台湾中华电信-100MBPS-1C
+  type: vmess
+  server: v-tw.camael.top
+  port: 24920
+  uuid: 600bb889-cea1-4f39-b0d7-0b92e56a278d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pull.free.video.10010.com
+- name: 🇺🇸 美国-V6|01 2-1A
+  type: vmess
+  server: crun6.668918.xyz
+  port: 22308
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇦🇺 1.5xIEPL专线 澳大利亚1-1A
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22258
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 美国-V6|01 2-1B
+  type: vmess
+  server: crun6.668918.xyz
+  port: 22308
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 2xIEPL专线 日本1-1B
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22253
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇰🇷 韩国 专线NO2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45075
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|01 0.5x-1A
+  type: vmess
+  server: naran1.616626.xyz
+  port: 22305
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|03 0.5x-1A
+  type: vmess
+  server: netcp3.616626.xyz
+  port: 22307
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 新加坡-1GBPS-1G
+  type: vmess
+  server: v-sg.camael.top
+  port: 9527
+  uuid: 7491b04a-43ed-44c1-9c4c-6c4150c42827
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 2xIEPL专线 日本3-1A
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35662
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇹🇼 台湾中华电信-100MBPS-1B
+  type: vmess
+  server: v-tw.camael.top
+  port: 24920
+  uuid: b0af47dc-6049-47ec-b03c-b5ac43f74d00
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pull.free.video.10010.com
+- name: 🇸🇬 新加坡-1GBPS-1A
+  type: vmess
+  server: v-sg.camael.top
+  port: 9527
+  uuid: eb8a58cf-16e7-4f59-920a-e5176c34d1af
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇦🇺 1.5xIEPL专线 澳大利亚2-1B
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35666
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇮🇳 印度2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45073
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|08-1A
+  type: vmess
+  server: greenhk2.616626.xyz
+  port: 10507
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|02 0.5x-1B
+  type: vmess
+  server: netcp2.616626.xyz
+  port: 22306
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|02 0.5x-1A
+  type: vmess
+  server: naran2.616626.xyz
+  port: 22306
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|06-1A
+  type: vmess
+  server: greenhk0.616626.xyz
+  port: 10505
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|06-1C
+  type: vmess
+  server: greenip3.668918.xyz
+  port: 22308
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 美国-V6|01 2-1C
+  type: vmess
+  server: crun6.668918.xyz
+  port: 22308
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|02 0.5x-1A
+  type: vmess
+  server: netcp2.616626.xyz
+  port: 22306
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|08-1B
+  type: vmess
+  server: greenhk2.616626.xyz
+  port: 10507
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|05 0.5x-1C
+  type: vmess
+  server: nathk.91ai.de
+  port: 18002
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|03 0.5x-1C
+  type: vmess
+  server: netcp3.616626.xyz
+  port: 22307
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇬🇧 英国2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45067
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|08-1D
+  type: vmess
+  server: greenhk2.616626.xyz
+  port: 10507
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇹🇼 台湾中华电信-100MBPS-1A
+  type: vmess
+  server: v-tw.camael.top
+  port: 24920
+  uuid: eb8a58cf-16e7-4f59-920a-e5176c34d1af
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pull.free.video.10010.com
+- name: 🇳🇱 荷兰-V6|01 0.5x-1D
+  type: vmess
+  server: naran1.616626.xyz
+  port: 22305
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 1.5xIEPL专线 美国原生2-1B
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35659
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 1.5xIEPL专线 美国1-1B
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22255
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|02-1C
+  type: vmess
+  server: greenchais2.668918.xyz
+  port: 22307
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|06-1C
+  type: vmess
+  server: greenhk0.616626.xyz
+  port: 10505
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本NO.2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45057
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|05 0.5x-1B
+  type: vmess
+  server: nathk.91ai.de
+  port: 18002
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|06-1B
+  type: vmess
+  server: greenhk0.616626.xyz
+  port: 10505
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|02 0.5x-1B
+  type: vmess
+  server: naran2.616626.xyz
+  port: 22306
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇫🇷 法国1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45072
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|01 0.5x-1B
+  type: vmess
+  server: netcp1.616626.xyz
+  port: 22305
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 2xIEPL专线 香港3-1A
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35660
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|02 0.5x-1C
+  type: vmess
+  server: netcp2.616626.xyz
+  port: 22306
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇬🇧 英国1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45066
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|03 0.5x-1A
+  type: vmess
+  server: naran3.616626.xyz
+  port: 22308
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 2xIEPL专线 香港1-1B
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22250
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|07-1D
+  type: vmess
+  server: greenhk1.616626.xyz
+  port: 10506
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|03 0.5x-1B
+  type: vmess
+  server: netcp3.616626.xyz
+  port: 22307
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|04-1A
+  type: vmess
+  server: greenip1.668918.xyz
+  port: 22306
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|05 0.5x-1A
+  type: vmess
+  server: nathk.91ai.de
+  port: 18002
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇨🇦 加拿大1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45064
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|07-1B
+  type: vmess
+  server: greenhk1.616626.xyz
+  port: 10506
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|02-1D
+  type: vmess
+  server: greenchais2.668918.xyz
+  port: 22307
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港NO.1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45050
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|05 0.5x-1D
+  type: vmess
+  server: nathk.91ai.de
+  port: 18002
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 1.5xIEPL专线 美国1-1A
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22255
+  uuid: e732576d-3d45-46e5-b74d-eb8540617b35
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 新加坡-1GBPS-1E
+  type: vmess
+  server: v-sg.camael.top
+  port: 9527
+  uuid: fa62d163-3cbd-4125-8eab-1e95c265bd23
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇦🇺 澳大利亚原生1
+  type: vmess
+  server: haa.dashuai.cyou
+  port: 45062
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇹🇼 台湾2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45077
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|06-1A
+  type: vmess
+  server: greenip3.668918.xyz
+  port: 22308
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇭🇰 香港-V6|07-1C
+  type: vmess
+  server: greenhk1.616626.xyz
+  port: 10506
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 1.5xIEPL专线 新加坡3-1B
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35661
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇹🇼 台湾中华电信-100MBPS-1E
+  type: vmess
+  server: v-tw.camael.top
+  port: 24920
+  uuid: fa62d163-3cbd-4125-8eab-1e95c265bd23
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pull.free.video.10010.com
+- name: 🇳🇱 荷兰-V6|04 0.5x-1D
+  type: vmess
+  server: naran4.616626.xyz
+  port: 22310
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇦🇺 1.5xIEPL专线 澳大利亚1-1B
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22258
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇸🇬 1.5xIEPL专线 新加坡1-1B
+  type: vmess
+  server: hn3x.newbee8.me
+  port: 22252
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|02-1A
+  type: vmess
+  server: greenchais2.668918.xyz
+  port: 22307
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|02 0.5x-1C
+  type: vmess
+  server: naran2.616626.xyz
+  port: 22306
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 美国NO.2
+  type: vmess
+  server: xdd.dashuai.cyou
+  port: 45053
+  uuid: 7fe73eba-b1bc-4c5a-810b-3d889a73f3e0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 2xIEPL专线 日本3-1B
+  type: vmess
+  server: gzdx.newbee8.me
+  port: 35662
+  uuid: 301049df-184f-412a-87a1-036778e2d0aa
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|07-1A
+  type: vmess
+  server: vpsjp1.668918.xyz
+  port: 22306
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|04 0.5x-1A
+  type: vmess
+  server: naran4.616626.xyz
+  port: 22310
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|01 0.5x-1C
+  type: vmess
+  server: naran1.616626.xyz
+  port: 22305
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|02-1B
+  type: vmess
+  server: greenchais2.668918.xyz
+  port: 22307
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|03 0.5x-1D
+  type: vmess
+  server: naran3.616626.xyz
+  port: 22308
+  uuid: 7aeb45fe-53ba-4d06-8bdc-51ec8c9b901c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|05-1B
+  type: vmess
+  server: greenip2.668918.xyz
+  port: 22307
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|07-1B
+  type: vmess
+  server: vpsjp1.668918.xyz
+  port: 22306
+  uuid: cf47083a-f172-46b0-8793-c4dbd6a87a28
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇺🇸 美国-V6|01-1A
+  type: vmess
+  server: dmitv61.616626.xyz
+  port: 22305
+  uuid: 019cb22c-8b3f-4209-a3f2-8d46cfe27071
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇳🇱 荷兰-V6|04 0.5x-1C
+  type: vmess
+  server: naran4.616626.xyz
+  port: 22310
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇯🇵 日本-V6|04-1C
+  type: vmess
+  server: greenip1.668918.xyz
+  port: 22306
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 🇩🇪 德国-V6|01 0.5x-1C
+  type: vmess
+  server: netcp1.616626.xyz
+  port: 22305
+  uuid: 40b80a56-187d-484e-b302-77a49cd1a8c0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 点转盘图标或右滑订阅更新
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: a30aca7e-b361-42fd-9745-4fa6d95f82b5
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: fed36fdb-7b63-4c33-8389-76b749047223
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 6e64de31-6651-4b96-bd0d-a6c2868045e5
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 4b716d4e-2d2f-4d3a-b696-feb00a889921
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 9321b4b2-89d1-41f9-a77d-334d49a65f32
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 0a7e80b3-725f-4b4f-a779-b1b369f39a14
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 9ec4cb72-4b0f-4b42-ac6c-228a7bb28bab
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 234c1124-2b50-4522-9067-87a9774cc326
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41277
+  password: eb1640f8-104e-4191-ae44-b747d69dd802
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇰🇷 韩国01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49214
+  password: 4b4fd645-d643-402a-86aa-7c7da1e0ccaa
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: 4f8c3cd4-c137-49dc-8fef-1f7a15b917a0
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国洛杉矶原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 19216
+  password: ec88a9f2-d02b-4e7b-80b7-742d011a2aac
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 5e91cdb0-a6ea-4949-a41a-428d2067f9d6
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 241729bf-d57b-46b2-8961-f40b5797a335
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 2208a979-5180-4339-b392-a69389d032a4
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 8f6636a5-3518-4eaa-ab36-645a0fb4bfd7
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 1a0dfad6-8783-435c-94ed-a612713f6e30
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 9e1e9536-a92d-4c81-b7ca-b71f6a547cab
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 426db69b-592c-435f-ab32-f7035e19843b
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41277
+  password: 1b57f237-7277-46be-b2b6-df11c773ec80
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇰🇷 韩国01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49214
+  password: 9c7c84e2-84bd-48a1-85f4-642d47c6cb77
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: 9702324d-e3ea-45c8-8312-05cc4bd4e13f
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 216dc975-1685-4546-bad0-65f9cfce00a6
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 9d3d25ce-5099-4db8-898c-3af7b6966dbf
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇰🇷 韩国01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49214
+  password: 9d3d25ce-5099-4db8-898c-3af7b6966dbf
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: d3a35de7-0bb4-4360-b268-7ebc4f7161eb
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 7c5d5c39-fbd3-4ece-a2b5-6b4940d31f32
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 4b62b008-347f-43f5-8215-b26569a8fd8c
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: d4a9d2f5-5258-49ac-868e-16d1ec082abc
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 93203640-5ae4-4b21-9870-e76af4680c5c
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 86fca914-668b-4a89-9cb1-a1f9f5127679
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41277
+  password: 9f73f183-c04b-46d8-bbd4-a7809e31a214
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇰🇷 韩国01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49214
+  password: 8095c579-ea8c-4a2f-a597-ff59205be94c
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: 187508a9-a3da-44b4-a34b-4fd3316fc161
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国洛杉矶原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 19216
+  password: 222a527f-09ad-4ed8-a09b-3efc37ca1d20
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: e464370b-b52e-425a-a143-2b2265f6bd60
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: ad661af5-7382-4403-bf22-90ad93315cc2
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 929fbd86-1795-401a-bb59-7c8e62adfe7f
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: b394bfe8-9b7a-4186-9f24-dd25549fc749
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: d1a6756b-f392-4d61-9b2b-b9014f0a7d61
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: eb8cce55-ccf8-4f9c-a24d-cc4735dd6a7e
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: cab3dbf8-dcc2-4b64-877a-3948dea509ea
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: be429d28-c79d-4a01-97e7-942c892d6060
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: e9453872-1455-4db2-bdc2-7e2541c32c76
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 442bdce7-2d1d-4de9-afef-8fc8f497670e
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41277
+  password: 0878929d-43ca-474b-8751-16fb4284736d
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 1007e17a-c4ab-4d05-bc16-fdc00d90ab99
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 24505a7a-dcfb-46e9-b699-ccd8a5fb3ad3
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41277
+  password: b68cf61f-db35-4404-9552-0f3398fee631
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: dbc8785a-ef78-40b6-aad8-5e5e5c69d4f8
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: d2c9a5ab-3b61-4ed4-ae6b-743a9f4d4731
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 0066d7d9-fcee-4c90-998e-d9b29d46ed14
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 0afa3513-5996-4df6-a62f-b8025ca52545
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: d263f48d-5904-43a5-96e9-951499bd8ef0
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇰🇷 韩国01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49214
+  password: 847e8479-7884-46d1-a23e-edfba99aeafa
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: ec1ec5f1-103f-46ea-ad19-46df5c19ec31
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: 6e546269-3048-46c7-a961-8fe9f706c0a5
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: a26c2b02-c4c0-4685-b000-0ded51d0ca79
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 3ff4d90e-b192-4afd-8cc3-22ddaf9d808a
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: f3a09336-5c90-4af9-a5bb-362b64680885
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: db327fd3-b018-4fc5-bcb3-eb59f1437d80
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 7909ae0c-aad4-45a3-badb-0433881d26e3
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: 6b1c86e5-4353-4c89-a7d4-faeb822be319
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国洛杉矶原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 19216
+  password: d74927f0-2532-4102-aeaf-dbbb111546ca
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: ef1a646b-1721-42a5-b8d4-89627368b045
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: aeab9bcc-e22a-4060-841c-3063616491ca
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 9f7d4d62-2cc1-4c61-8f41-7969631759cf
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 27e80a56-b085-4b7e-aaa8-9cccc3970281
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 4c9a8968-eb03-41a1-ae46-f9448c14a61f
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: d7b6c7ab-32da-4182-b601-1543f2f3aea2
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原�%9
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: 2f62f197-58c1-43a0-aca0-cc1ce7ea1f26
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: HK1
+  type: trojan
+  server: tuntro001.instconn.com
+  port: 443
+  password: d7abd3e3-0455-4e27-8544-8788d7a84d7a
+  udp: true
+  sni: www.westarthk.686911.xyz
+  skip-cert-verify: true
+- name: 日本-全网+|+JP-4
+  type: trojan
+  server: tuntro003.instconn.com
+  port: 443
+  password: d7abd3e3-0455-4e27-8544-8788d7a84d7a
+  udp: true
+  sni: nicovideo.686911.xyz
+  skip-cert-verify: true
+- name: 美国-电信+|+US-2
+  type: trojan
+  server: tuntro005.instconn.com
+  port: 443
+  password: d7abd3e3-0455-4e27-8544-8788d7a84d7a
+  udp: true
+  sni: python.686911.xyz
+  skip-cert-verify: true
+- name: 香港 01【IEPL】
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 19501
+  uuid: 61f535e5-d926-443a-9353-6c95e63fea75
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 日本丨解GPT
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 19503
+  uuid: 3d671f6c-b8ee-4e9c-87bc-df1f59316f86
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 新加坡丨解GPT
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 49510
+  uuid: 2449a642-0853-4049-b273-24cd1fba26bf
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 美国 01【IEPL】
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 49504
+  uuid: a24348eb-999a-4a19-bf41-ef36082d08ab
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 美国 02【IEPL】
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 49512
+  uuid: 9a076b60-7a46-4b76-995d-2863d45b1349
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 新加坡解GPT
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 49513
+  uuid: 25df481a-5816-4224-bcae-ac8366135812
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 马来西亚丨解GPT
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 49517
+  uuid: 4211c938-9022-4105-9385-6394cc1ed80b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 香港 01【IEPL】
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 19501
+  uuid: 67c84b1a-1b29-4244-b870-2f3b7a48bc74
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 香港 01【IEPL】
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 19501
+  uuid: 556cb475-9f9f-436b-aa06-163afc5511f6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 新加坡丨解GPT
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 49510
+  uuid: 69484bd4-4851-4bc3-b5f0-fa8aab838329
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 日本丨解GPT
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 19503
+  uuid: df9d43b4-9246-4779-95c6-878340b0bf94
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 美国 01【IEPL】
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 49504
+  uuid: 8056e782-6795-44dd-b0d2-50fbadc79f08
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 香港 01【IEPL】
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 19501
+  uuid: 308bcf09-f203-4260-b71d-65ec19fc5d8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 每日连接前右上角三横
+  type: vmess
+  server: 5.wogg1.top
+  port: 11205
+  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  alterId: 2
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 位置进去点“更新订阅”
+  type: vmess
+  server: 8.wogg1.top
+  port: 11208
+  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  alterId: 2
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 正下方显示"成功"再连接
+  type: vmess
+  server: 9.wogg1.top
+  port: 11209
+  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  alterId: 2
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 感谢您的支持和厚爱！
+  type: vmess
+  server: 16.wogg1.top
+  port: 11216
+  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  alterId: 2
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 有问题可联系购买客服
+  type: vmess
+  server: 23.wogg1.top
+  port: 11223
+  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  alterId: 2
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 韩国GPT1
+  type: vmess
+  server: 13.wogg1.top
+  port: 11213
+  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  alterId: 2
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 韩国GPT2
+  type: vmess
+  server: 15.wogg1.top
+  port: 11215
+  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  alterId: 2
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: V1-日本A 隧道 1.6x
+  type: vmess
+  server: pub.ap20250909.xyz
+  port: 64011
+  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: V1-澳洲01 隧道 | 2x
+  type: vmess
+  server: pub.ap20250909.xyz
+  port: 64003
+  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: V1-美国03 隧道 1.5x
+  type: vmess
+  server: pub.ap20250909.xyz
+  port: 64016
+  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: V1-香港A 隧道 1.6x
+  type: vmess
+  server: pub.ap20250909.xyz
+  port: 64099
+  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: V1-香港HKT02 隧道 原生家宽 2x
+  type: vmess
+  server: pub.ap20250909.xyz
+  port: 64019
+  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: V2-PRO 日本A 3x
+  type: vmess
+  server: pro.ap20250909.xyz
+  port: 3304
+  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - 181
+  - 178
+  - 470
+  - 186
+  - 723
+  - 198
+  - 158
+  - 264
+  - 185
+  - 190
+  - London 6
+  - Singapore Pro 5
+  - London Pro 5
+  - Ashburn 4
+  - Helsinki 7
+  - Chicago 3
+  - Bangkok Pro 1
+  - Tokyo 1
+  - Mumbai Pro 1
+  - Helsinki Pro 7
+  - Seoul Pro 4
+  - Frankfurt 14
+  - Frankfurt 13
+  - Singapore 6
+  - Sydney Pro 4
+  - Amsterdam Pro 2
+  - Singapore Pro 6
+  - Montreal Pro 3
+  - London 5
+  - Singapore Pro 8
+  - London Pro 6
+  - Tokyo Pro 1
+  - Manama Pro 1
+  - Chicago Pro 3
+  - Singapore Pro 9
+  - Singapore Pro 3
+  - Singapore Pro 4
+  - Frankfurt Pro 13
+  - Frankfurt 12
+  - Warsaw Pro 2
+  - Chicago Pro 5
+  - Sydney Pro 2
+  - Frankfurt Pro 12
+  - Singapore 8
+  - Chicago Pro 7
+  - Frankfurt Pro 14
+  - Amsterdam 2
+  - Frankfurt Pro 4
+  - Helsinki Pro 6
+  - Frankfurt 11
+  - Ashburn Pro 4
+  - Sydney 3
+  - Fujairah Pro 1
+  - Frankfurt Pro 11
+  - Sydney Pro 3
+  - Chicago Pro 6
+  - Moscow Pro 3
+  - Frankfurt 4
+  - Warsaw 2
+  - Karachi Pro 2
+  - Ashburn Pro 1
+  - Sydney 4
+  - Riyadh Pro 1
+  - Kathmandu Pro 1
+  - Chicago 7
+  - Florence Pro 1
+  - Seoul Pro 2
+  - Barcelona Pro 1
+  - Ashburn 1
+  - Helsinki 6
+  - Sydney Pro 1
+  - HK-香港-快速专线1
+  - HK-香港-快速专线2
+  - US-美国-快速专线1
+  - US-美国-快速专线2
+  - DE-德国-快速专线1
+  - DE-德国-快速专线2
+  - UK-英国-快速专线1
+  - UK-英国-快速专线2
+  - JP-日本-快速专线1
+  - JP-日本-快速专线2
+  - TW-台湾-快速专线1
+  - TW-台湾-快速专线2
+  - TM-新加坡-快速专线1
+  - TM-新加坡-快速专线2
+  - TM-马来西亚-快速专线1
+  - TM-马来西亚-快速专线2
+  - FLB-菲律宾-快速专线1
+  - FLB-菲律宾-快速专线2
+  - TG-泰国-快速专线1
+  - TG-泰国-快速专线2
+  - VN-越南-快速专线1
+  - VN-越南-快速专线2
+  - KH-柬埔寨-快速专线1
+  - KH-柬埔寨-快速专线2
+  - FR-法国-快速专线1
+  - FR-法国-快速专线2
+  - KR-韩国-快速专线1
+  - KR-韩国-快速专线2
+  - RU-土耳其-快速专线1
+  - RU-土耳其-快速专线2
+  - swiss
+  - japan
+  - us_seattle
+  - us3
+  - uk_manchester
+  - uk
+  - us-newjersey
+  - ca_vancouver
+  - us_south_west
+  - nl_amsterdam
+  - 🇳🇱 荷兰-V6|03 0.5x-1B
+  - 🇹🇼 台湾中华电信-100MBPS-1D
+  - 🇯🇵 日本-V6|05-1A
+  - 🇭🇰 香港-V6|06-1D
+  - 🇩🇪 德国-V6|02 0.5x-1D
+  - 🇳🇱 荷兰-V6|03 0.5x-1C
+  - 🇯🇵 日本-V6|06-1D
+  - 🇯🇵 日本-V6|05-1D
+  - 🇯🇵 日本-V6|06-1B
+  - 🇺🇸 美国NO.1
+  - 🇦🇺 1.5xIEPL专线 澳大利亚2-1A
+  - 🇺🇸 1.5xIEPL专线 美国原生2-1A
+  - 🇺🇸 美国-V6|01-1D
+  - 🇸🇬 新加坡NO.2
+  - 🇸🇬 1.5xIEPL专线 新加坡3-1A
+  - 🇭🇰 2xIEPL专线 香港3-1B
+  - 🇺🇸 1.5xIEPL专线 美国原生1-1A
+  - 🇳🇱 荷兰-V6|01 0.5x-1B
+  - 🇭🇰 香港-V6|08-1C
+  - 🇨🇦 加拿大2
+  - 🇸🇬 新加坡-1GBPS-1C
+  - 🇯🇵 日本-V6|04-1B
+  - 🇺🇸 美国-V6|01-1C
+  - 🇭🇰 香港-V6|07-1A
+  - 🇩🇪 德国-V6|01 0.5x-1D
+  - 🇫🇷 法国2
+  - 🇸🇬 1.5xIEPL专线 新加坡1-1A
+  - 🇩🇪 德国-V6|01 0.5x-1A
+  - 🇸🇬 新加坡-1GBPS-1F
+  - 🇮🇳 1.5xIEPL专线 印度1-1B
+  - 🇮🇳 印度1
+  - 🇮🇳 1.5xIEPL专线 印度3-1B
+  - 🇺🇸 1.5xIEPL专线 美国原生1-1B
+  - 🇳🇱 荷兰-V6|04 0.5x-1B
+  - 🇺🇸 1.5xIEPL专线 美国2-1A
+  - 🇹🇼 台湾中华电信-100MBPS-1F
+  - 🇩🇪 德国-V6|03 0.5x-1D
+  - 🇭🇰 香港NO.2
+  - 🇯🇵 日本-V6|07-1D
+  - 🇭🇰 2xIEPL专线 香港1-1A
+  - 🇸🇬 新加坡-1GBPS-1B
+  - 🇺🇸 美国-V6|01-1B
+  - 🇮🇳 1.5xIEPL专线 印度3-1A
+  - 🇸🇬 新加坡NO.1
+  - 🇯🇵 日本-V6|07-1C
+  - 🇹🇼 台湾1
+  - 🇰🇷 韩国 专线NO1
+  - 🇯🇵 日本-V6|04-1D
+  - 🇦🇺 澳大利亚原生2
+  - 🇯🇵 日本-V6|05-1C
+  - 🇺🇸 1.5xIEPL专线 美国2-1B
+  - 🇯🇵 2xIEPL专线 日本1-1A
+  - 🇸🇬 新加坡-1GBPS-1D
+  - 🇹🇼 台湾中华电信-100MBPS-1G
+  - 🇯🇵 日本NO.1
+  - 🇺🇸 美国-V6|01 2-1D
+  - 🇮🇳 1.5xIEPL专线 印度1-1A
+  - 🇳🇱 荷兰-V6|02 0.5x-1D
+  - 🇹🇼 台湾中华电信-100MBPS-1C
+  - 🇺🇸 美国-V6|01 2-1A
+  - 🇦🇺 1.5xIEPL专线 澳大利亚1-1A
+  - 🇺🇸 美国-V6|01 2-1B
+  - 🇯🇵 2xIEPL专线 日本1-1B
+  - 🇰🇷 韩国 专线NO2
+  - 🇳🇱 荷兰-V6|01 0.5x-1A
+  - 🇩🇪 德国-V6|03 0.5x-1A
+  - 🇸🇬 新加坡-1GBPS-1G
+  - 🇯🇵 2xIEPL专线 日本3-1A
+  - 🇹🇼 台湾中华电信-100MBPS-1B
+  - 🇸🇬 新加坡-1GBPS-1A
+  - 🇦🇺 1.5xIEPL专线 澳大利亚2-1B
+  - 🇮🇳 印度2
+  - 🇭🇰 香港-V6|08-1A
+  - 🇩🇪 德国-V6|02 0.5x-1B
+  - 🇳🇱 荷兰-V6|02 0.5x-1A
+  - 🇭🇰 香港-V6|06-1A
+  - 🇯🇵 日本-V6|06-1C
+  - 🇺🇸 美国-V6|01 2-1C
+  - 🇩🇪 德国-V6|02 0.5x-1A
+  - 🇭🇰 香港-V6|08-1B
+  - 🇭🇰 香港-V6|05 0.5x-1C
+  - 🇩🇪 德国-V6|03 0.5x-1C
+  - 🇬🇧 英国2
+  - 🇭🇰 香港-V6|08-1D
+  - 🇹🇼 台湾中华电信-100MBPS-1A
+  - 🇳🇱 荷兰-V6|01 0.5x-1D
+  - 🇺🇸 1.5xIEPL专线 美国原生2-1B
+  - 🇺🇸 1.5xIEPL专线 美国1-1B
+  - 🇯🇵 日本-V6|02-1C
+  - 🇭🇰 香港-V6|06-1C
+  - 🇯🇵 日本NO.2
+  - 🇭🇰 香港-V6|05 0.5x-1B
+  - 🇭🇰 香港-V6|06-1B
+  - 🇳🇱 荷兰-V6|02 0.5x-1B
+  - 🇫🇷 法国1
+  - 🇩🇪 德国-V6|01 0.5x-1B
+  - 🇭🇰 2xIEPL专线 香港3-1A
+  - 🇩🇪 德国-V6|02 0.5x-1C
+  - 🇬🇧 英国1
+  - 🇳🇱 荷兰-V6|03 0.5x-1A
+  - 🇭🇰 2xIEPL专线 香港1-1B
+  - 🇭🇰 香港-V6|07-1D
+  - 🇩🇪 德国-V6|03 0.5x-1B
+  - 🇯🇵 日本-V6|04-1A
+  - 🇭🇰 香港-V6|05 0.5x-1A
+  - 🇨🇦 加拿大1
+  - 🇭🇰 香港-V6|07-1B
+  - 🇯🇵 日本-V6|02-1D
+  - 🇭🇰 香港NO.1
+  - 🇭🇰 香港-V6|05 0.5x-1D
+  - 🇺🇸 1.5xIEPL专线 美国1-1A
+  - 🇸🇬 新加坡-1GBPS-1E
+  - 🇦🇺 澳大利亚原生1
+  - 🇹🇼 台湾2
+  - 🇯🇵 日本-V6|06-1A
+  - 🇭🇰 香港-V6|07-1C
+  - 🇸🇬 1.5xIEPL专线 新加坡3-1B
+  - 🇹🇼 台湾中华电信-100MBPS-1E
+  - 🇳🇱 荷兰-V6|04 0.5x-1D
+  - 🇦🇺 1.5xIEPL专线 澳大利亚1-1B
+  - 🇸🇬 1.5xIEPL专线 新加坡1-1B
+  - 🇯🇵 日本-V6|02-1A
+  - 🇳🇱 荷兰-V6|02 0.5x-1C
+  - 🇺🇸 美国NO.2
+  - 🇯🇵 2xIEPL专线 日本3-1B
+  - 🇯🇵 日本-V6|07-1A
+  - 🇳🇱 荷兰-V6|04 0.5x-1A
+  - 🇳🇱 荷兰-V6|01 0.5x-1C
+  - 🇯🇵 日本-V6|02-1B
+  - 🇳🇱 荷兰-V6|03 0.5x-1D
+  - 🇯🇵 日本-V6|05-1B
+  - 🇯🇵 日本-V6|07-1B
+  - 🇺🇸 美国-V6|01-1A
+  - 🇳🇱 荷兰-V6|04 0.5x-1C
+  - 🇯🇵 日本-V6|04-1C
+  - 🇩🇪 德国-V6|01 0.5x-1C
+  - 点转盘图标或右滑订阅更新
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
+  - 🇯🇵日本2
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇺🇸 美国纽约
+  - 🇸🇬 新加坡1
+  - 🇰🇷 韩国01
+  - 🇺🇸美国西雅图原生
+  - 🇺🇸美国洛杉矶原生
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
+  - 🇯🇵日本2
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇸🇬 新加坡1
+  - 🇰🇷 韩国01
+  - 🇺🇸美国西雅图原生
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇰🇷 韩国01
+  - 🇯🇵日本2
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇸🇬 新加坡1
+  - 🇰🇷 韩国01
+  - 🇺🇸美国西雅图原生
+  - 🇺🇸美国洛杉矶原生
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
+  - 🇯🇵日本2
+  - 🇯🇵日本1
+  - 🇯🇵日本1
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 01
+  - 🇺🇸 美国纽约
+  - 🇸🇬 新加坡1
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇸🇬 新加坡1
+  - 🇨🇳台湾1
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
+  - 🇯🇵日本2
+  - 🇰🇷 韩国01
+  - 🇺🇸美国西雅图原生
+  - 🇺🇸美国西雅图原生
+  - 🇭🇰 香港 02
+  - 🇯🇵日本2
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇺🇸 美国纽约
+  - 🇺🇸美国西雅图原生
+  - 🇺🇸美国洛杉矶原生
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇺🇸美国西雅图原�%9
+  - HK1
+  - 日本-全网+|+JP-4
+  - 美国-电信+|+US-2
+  - 香港 01【IEPL】
+  - 日本丨解GPT
+  - 新加坡丨解GPT
+  - 美国 01【IEPL】
+  - 美国 02【IEPL】
+  - 新加坡解GPT
+  - 马来西亚丨解GPT
+  - 香港 01【IEPL】
+  - 香港 01【IEPL】
+  - 新加坡丨解GPT
+  - 日本丨解GPT
+  - 美国 01【IEPL】
+  - 香港 01【IEPL】
+  - 每日连接前右上角三横
+  - 位置进去点“更新订阅”
+  - 正下方显示"成功"再连接
+  - 感谢您的支持和厚爱！
+  - 有问题可联系购买客服
+  - 韩国GPT1
+  - 韩国GPT2
+  - V1-日本A 隧道 1.6x
+  - V1-澳洲01 隧道 | 2x
+  - V1-美国03 隧道 1.5x
+  - V1-香港A 隧道 1.6x
+  - V1-香港HKT02 隧道 原生家宽 2x
+  - V2-PRO 日本A 3x
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+rules:
+- GEOIP,CN,DIRECT
+- MATCH,🚀 节点选择
