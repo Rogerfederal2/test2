@@ -7,26 +7,10 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
 proxies:
-- name: 181
+- name: 188
   type: vmess
-  server: 217.138.197.173
+  server: 170.178.189.43
   port: 443
-  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
-  alterId: 64
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path/091615350227
-    headers:
-      Host: www.29870011.xyz
-  servername: www.29870011.xyz
-- name: 178
-  type: vmess
-  server: 85.206.168.71
-  port: 30000
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
@@ -37,12 +21,12 @@ proxies:
   ws-opts:
     path: /path/091615350227
     headers:
-      Host: www.93271626.xyz
-  servername: www.93271626.xyz
-- name: 470
+      Host: www.84347406.xyz
+  servername: www.84347406.xyz
+- name: 945
   type: vmess
-  server: 120.210.205.59
-  port: 52002
+  server: 183.236.51.36
+  port: 59003
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
@@ -50,25 +34,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 186
+- name: 943
   type: vmess
-  server: 89.163.247.25
-  port: 30001
-  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
-  alterId: 64
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path/091615350227
-    headers:
-      Host: www.50360235.xyz
-  servername: www.50360235.xyz
-- name: 723
-  type: vmess
-  server: 121.199.163.86
+  server: 112.132.215.14
   port: 50002
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
@@ -77,65 +45,6 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 198
-  type: vmess
-  server: 185.128.26.67
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path/091615350227
-    headers:
-      Host: www.92676025.xyz
-  servername: www.92676025.xyz
-- name: 158
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: 264
-  type: vmess
-  server: 23.225.165.243
-  port: 36000
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path/091615350227
-    headers:
-      Host: www.21065360.xyz
-  servername: www.21065360.xyz
-- name: 185
-  type: vmess
-  server: 91.132.197.5
-  port: 443
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path/091615350227
-    headers:
-      Host: www.29794192.xyz
-  servername: www.29794192.xyz
 - name: 190
   type: vmess
   server: 193.29.107.238
@@ -152,29 +61,115 @@ proxies:
     headers:
       Host: www.88717328.xyz
   servername: www.88717328.xyz
-- name: London 6
-  type: trojan
-  server: settled-crawdad.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
+- name: 187
+  type: vmess
+  server: 185.108.128.58
+  port: 30000
+  uuid: 5aab3936-16d7-4377-8c33-0d77f2d295ee
+  alterId: 64
+  cipher: auto
   udp: true
-  sni: settled-crawdad.cougar315.yachts
+  tls: true
   skip-cert-verify: true
-- name: Singapore Pro 5
-  type: trojan
-  server: rich-gnu.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.14601176.xyz
+  servername: www.14601176.xyz
+- name: 1191
+  type: vmess
+  server: 39.97.231.134
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
   udp: true
-  sni: rich-gnu.cougar315.yachts
+  tls: false
   skip-cert-verify: true
-- name: London Pro 5
+  network: tcp
+- name: 585
+  type: vmess
+  server: 37.120.142.252
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.82210771.xyz
+  servername: www.82210771.xyz
+- name: 201
+  type: vmess
+  server: 37.120.236.252
+  port: 443
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.83571945.xyz
+  servername: www.83571945.xyz
+- name: 220
+  type: vmess
+  server: 104.192.87.91
+  port: 49999
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.62544542.xyz
+  servername: www.62544542.xyz
+- name: 1118
+  type: vmess
+  server: 103.72.5.15
+  port: 46666
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/091615350227
+    headers:
+      Host: www.95278268.xyz
+  servername: www.95278268.xyz
+- name: 1156
+  type: vmess
+  server: 183.240.180.39
+  port: 52512
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: Seoul Pro 2
   type: trojan
-  server: concise-beagle.cougar315.yachts
+  server: daring-dinosaur.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: concise-beagle.cougar315.yachts
+  sni: daring-dinosaur.cougar315.yachts
   skip-cert-verify: true
 - name: Ashburn 4
   type: trojan
@@ -184,53 +179,13 @@ proxies:
   udp: true
   sni: wealthy-moray.cougar315.yachts
   skip-cert-verify: true
-- name: Helsinki 7
+- name: Sydney Pro 3
   type: trojan
-  server: fancy-quagga.cougar315.yachts
+  server: diverse-stud.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: fancy-quagga.cougar315.yachts
-  skip-cert-verify: true
-- name: Chicago 3
-  type: trojan
-  server: glowing-monkfish.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: glowing-monkfish.cougar315.yachts
-  skip-cert-verify: true
-- name: Bangkok Pro 1
-  type: trojan
-  server: clever-mosquito.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: clever-mosquito.cougar315.yachts
-  skip-cert-verify: true
-- name: Tokyo 1
-  type: trojan
-  server: massive-coyote.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: massive-coyote.cougar315.yachts
-  skip-cert-verify: true
-- name: Mumbai Pro 1
-  type: trojan
-  server: flowing-glowworm.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: flowing-glowworm.cougar315.yachts
-  skip-cert-verify: true
-- name: Helsinki Pro 7
-  type: trojan
-  server: fancy-quagga.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: fancy-quagga.cougar315.yachts
+  sni: diverse-stud.cougar315.yachts
   skip-cert-verify: true
 - name: Seoul Pro 4
   type: trojan
@@ -240,39 +195,7 @@ proxies:
   udp: true
   sni: renewed-gecko.cougar315.yachts
   skip-cert-verify: true
-- name: Frankfurt 14
-  type: trojan
-  server: mint-lion.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: mint-lion.cougar315.yachts
-  skip-cert-verify: true
-- name: Frankfurt 13
-  type: trojan
-  server: sweeping-satyr.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: sweeping-satyr.cougar315.yachts
-  skip-cert-verify: true
-- name: Singapore 6
-  type: trojan
-  server: still-koi.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: still-koi.cougar315.yachts
-  skip-cert-verify: true
-- name: Sydney Pro 4
-  type: trojan
-  server: saved-ghoul.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: saved-ghoul.cougar315.yachts
-  skip-cert-verify: true
-- name: Amsterdam Pro 2
+- name: Amsterdam 2
   type: trojan
   server: known-manatee.cougar315.yachts
   port: 443
@@ -280,21 +203,29 @@ proxies:
   udp: true
   sni: known-manatee.cougar315.yachts
   skip-cert-verify: true
-- name: Singapore Pro 6
+- name: Tokyo 1
   type: trojan
-  server: still-koi.cougar315.yachts
+  server: massive-coyote.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: still-koi.cougar315.yachts
+  sni: massive-coyote.cougar315.yachts
   skip-cert-verify: true
-- name: Montreal Pro 3
+- name: Sydney 4
   type: trojan
-  server: deciding-wombat.cougar315.yachts
+  server: saved-ghoul.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: deciding-wombat.cougar315.yachts
+  sni: saved-ghoul.cougar315.yachts
+  skip-cert-verify: true
+- name: Fujairah Pro 1
+  type: trojan
+  server: ace-catfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: ace-catfish.cougar315.yachts
   skip-cert-verify: true
 - name: London 5
   type: trojan
@@ -304,29 +235,45 @@ proxies:
   udp: true
   sni: concise-beagle.cougar315.yachts
   skip-cert-verify: true
-- name: Singapore Pro 8
+- name: Ashburn 1
   type: trojan
-  server: musical-blowfish.cougar315.yachts
+  server: relaxed-ray.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: musical-blowfish.cougar315.yachts
+  sni: relaxed-ray.cougar315.yachts
   skip-cert-verify: true
-- name: London Pro 6
+- name: Frankfurt 11
   type: trojan
-  server: settled-crawdad.cougar315.yachts
+  server: verified-crayfish.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: settled-crawdad.cougar315.yachts
+  sni: verified-crayfish.cougar315.yachts
   skip-cert-verify: true
-- name: Tokyo Pro 1
+- name: Frankfurt Pro 11
   type: trojan
-  server: massive-coyote.cougar315.yachts
+  server: verified-crayfish.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: massive-coyote.cougar315.yachts
+  sni: verified-crayfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt Pro 4
+  type: trojan
+  server: guided-gecko.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: guided-gecko.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore 6
+  type: trojan
+  server: still-koi.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: still-koi.cougar315.yachts
   skip-cert-verify: true
 - name: Manama Pro 1
   type: trojan
@@ -336,53 +283,37 @@ proxies:
   udp: true
   sni: witty-hyena.cougar315.yachts
   skip-cert-verify: true
-- name: Chicago Pro 3
+- name: Frankfurt 14
   type: trojan
-  server: glowing-monkfish.cougar315.yachts
+  server: mint-lion.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: glowing-monkfish.cougar315.yachts
+  sni: mint-lion.cougar315.yachts
   skip-cert-verify: true
-- name: Singapore Pro 9
+- name: London Pro 6
   type: trojan
-  server: free-sloth.cougar315.yachts
+  server: settled-crawdad.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: free-sloth.cougar315.yachts
+  sni: settled-crawdad.cougar315.yachts
   skip-cert-verify: true
-- name: Singapore Pro 3
+- name: Helsinki 7
   type: trojan
-  server: hopeful-vervet.cougar315.yachts
+  server: fancy-quagga.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: hopeful-vervet.cougar315.yachts
+  sni: fancy-quagga.cougar315.yachts
   skip-cert-verify: true
-- name: Singapore Pro 4
+- name: Kathmandu Pro 1
   type: trojan
-  server: large-piranha.cougar315.yachts
+  server: main-gobbler.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: large-piranha.cougar315.yachts
-  skip-cert-verify: true
-- name: Frankfurt Pro 13
-  type: trojan
-  server: sweeping-satyr.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: sweeping-satyr.cougar315.yachts
-  skip-cert-verify: true
-- name: Frankfurt 12
-  type: trojan
-  server: mature-lemming.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: mature-lemming.cougar315.yachts
+  sni: main-gobbler.cougar315.yachts
   skip-cert-verify: true
 - name: Warsaw Pro 2
   type: trojan
@@ -392,6 +323,22 @@ proxies:
   udp: true
   sni: glad-caribou.cougar315.yachts
   skip-cert-verify: true
+- name: Frankfurt 4
+  type: trojan
+  server: guided-gecko.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: guided-gecko.cougar315.yachts
+  skip-cert-verify: true
+- name: London 6
+  type: trojan
+  server: settled-crawdad.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: settled-crawdad.cougar315.yachts
+  skip-cert-verify: true
 - name: Chicago Pro 5
   type: trojan
   server: star-crayfish.cougar315.yachts
@@ -400,13 +347,37 @@ proxies:
   udp: true
   sni: star-crayfish.cougar315.yachts
   skip-cert-verify: true
-- name: Sydney Pro 2
+- name: Barcelona Pro 1
   type: trojan
-  server: quiet-wildcat.cougar315.yachts
+  server: major-insect.cougar315.yachts
   port: 443
   password: '3690911436885991424'
   udp: true
-  sni: quiet-wildcat.cougar315.yachts
+  sni: major-insect.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney Pro 4
+  type: trojan
+  server: saved-ghoul.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: saved-ghoul.cougar315.yachts
+  skip-cert-verify: true
+- name: Bangkok Pro 1
+  type: trojan
+  server: clever-mosquito.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: clever-mosquito.cougar315.yachts
+  skip-cert-verify: true
+- name: Ashburn Pro 4
+  type: trojan
+  server: wealthy-moray.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: wealthy-moray.cougar315.yachts
   skip-cert-verify: true
 - name: Frankfurt Pro 12
   type: trojan
@@ -416,7 +387,255 @@ proxies:
   udp: true
   sni: mature-lemming.cougar315.yachts
   skip-cert-verify: true
+- name: Helsinki 6
+  type: trojan
+  server: glad-serval.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glad-serval.cougar315.yachts
+  skip-cert-verify: true
+- name: Florence Pro 1
+  type: trojan
+  server: real-monitor.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: real-monitor.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago 3
+  type: trojan
+  server: glowing-monkfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glowing-monkfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Karachi Pro 2
+  type: trojan
+  server: glad-lioness.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glad-lioness.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 6
+  type: trojan
+  server: still-koi.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: still-koi.cougar315.yachts
+  skip-cert-verify: true
+- name: Warsaw 2
+  type: trojan
+  server: glad-caribou.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glad-caribou.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney Pro 2
+  type: trojan
+  server: quiet-wildcat.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: quiet-wildcat.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 4
+  type: trojan
+  server: large-piranha.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: large-piranha.cougar315.yachts
+  skip-cert-verify: true
+- name: Helsinki Pro 7
+  type: trojan
+  server: fancy-quagga.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: fancy-quagga.cougar315.yachts
+  skip-cert-verify: true
+- name: Mumbai Pro 1
+  type: trojan
+  server: flowing-glowworm.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: flowing-glowworm.cougar315.yachts
+  skip-cert-verify: true
+- name: Moscow Pro 3
+  type: trojan
+  server: pet-mako.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: pet-mako.cougar315.yachts
+  skip-cert-verify: true
 - name: Singapore 8
+  type: trojan
+  server: musical-blowfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: musical-blowfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago Pro 6
+  type: trojan
+  server: flexible-weevil.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: flexible-weevil.cougar315.yachts
+  skip-cert-verify: true
+- name: Montreal Pro 3
+  type: trojan
+  server: deciding-wombat.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: deciding-wombat.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt 12
+  type: trojan
+  server: mature-lemming.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: mature-lemming.cougar315.yachts
+  skip-cert-verify: true
+- name: Amsterdam Pro 2
+  type: trojan
+  server: known-manatee.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: known-manatee.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt 13
+  type: trojan
+  server: sweeping-satyr.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: sweeping-satyr.cougar315.yachts
+  skip-cert-verify: true
+- name: Helsinki Pro 6
+  type: trojan
+  server: glad-serval.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glad-serval.cougar315.yachts
+  skip-cert-verify: true
+- name: Riyadh Pro 1
+  type: trojan
+  server: clear-hawk.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: clear-hawk.cougar315.yachts
+  skip-cert-verify: true
+- name: London Pro 5
+  type: trojan
+  server: concise-beagle.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: concise-beagle.cougar315.yachts
+  skip-cert-verify: true
+- name: Tokyo Pro 1
+  type: trojan
+  server: massive-coyote.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: massive-coyote.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 3
+  type: trojan
+  server: hopeful-vervet.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: hopeful-vervet.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 5
+  type: trojan
+  server: rich-gnu.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: rich-gnu.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt Pro 14
+  type: trojan
+  server: mint-lion.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: mint-lion.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 9
+  type: trojan
+  server: free-sloth.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: free-sloth.cougar315.yachts
+  skip-cert-verify: true
+- name: Frankfurt Pro 13
+  type: trojan
+  server: sweeping-satyr.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: sweeping-satyr.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago Pro 3
+  type: trojan
+  server: glowing-monkfish.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: glowing-monkfish.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney Pro 1
+  type: trojan
+  server: fine-pheasant.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: fine-pheasant.cougar315.yachts
+  skip-cert-verify: true
+- name: Ashburn Pro 1
+  type: trojan
+  server: relaxed-ray.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: relaxed-ray.cougar315.yachts
+  skip-cert-verify: true
+- name: Chicago 7
+  type: trojan
+  server: smiling-dory.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: smiling-dory.cougar315.yachts
+  skip-cert-verify: true
+- name: Sydney 3
+  type: trojan
+  server: diverse-stud.cougar315.yachts
+  port: 443
+  password: '3690911436885991424'
+  udp: true
+  sni: diverse-stud.cougar315.yachts
+  skip-cert-verify: true
+- name: Singapore Pro 8
   type: trojan
   server: musical-blowfish.cougar315.yachts
   port: 443
@@ -432,441 +651,233 @@ proxies:
   udp: true
   sni: smiling-dory.cougar315.yachts
   skip-cert-verify: true
-- name: Frankfurt Pro 14
-  type: trojan
-  server: mint-lion.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: mint-lion.cougar315.yachts
-  skip-cert-verify: true
-- name: Amsterdam 2
-  type: trojan
-  server: known-manatee.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: known-manatee.cougar315.yachts
-  skip-cert-verify: true
-- name: Frankfurt Pro 4
-  type: trojan
-  server: guided-gecko.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: guided-gecko.cougar315.yachts
-  skip-cert-verify: true
-- name: Helsinki Pro 6
-  type: trojan
-  server: glad-serval.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: glad-serval.cougar315.yachts
-  skip-cert-verify: true
-- name: Frankfurt 11
-  type: trojan
-  server: verified-crayfish.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: verified-crayfish.cougar315.yachts
-  skip-cert-verify: true
-- name: Ashburn Pro 4
-  type: trojan
-  server: wealthy-moray.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: wealthy-moray.cougar315.yachts
-  skip-cert-verify: true
-- name: Sydney 3
-  type: trojan
-  server: diverse-stud.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: diverse-stud.cougar315.yachts
-  skip-cert-verify: true
-- name: Fujairah Pro 1
-  type: trojan
-  server: ace-catfish.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: ace-catfish.cougar315.yachts
-  skip-cert-verify: true
-- name: Frankfurt Pro 11
-  type: trojan
-  server: verified-crayfish.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: verified-crayfish.cougar315.yachts
-  skip-cert-verify: true
-- name: Sydney Pro 3
-  type: trojan
-  server: diverse-stud.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: diverse-stud.cougar315.yachts
-  skip-cert-verify: true
-- name: Chicago Pro 6
-  type: trojan
-  server: flexible-weevil.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: flexible-weevil.cougar315.yachts
-  skip-cert-verify: true
-- name: Moscow Pro 3
-  type: trojan
-  server: pet-mako.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: pet-mako.cougar315.yachts
-  skip-cert-verify: true
-- name: Frankfurt 4
-  type: trojan
-  server: guided-gecko.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: guided-gecko.cougar315.yachts
-  skip-cert-verify: true
-- name: Warsaw 2
-  type: trojan
-  server: glad-caribou.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: glad-caribou.cougar315.yachts
-  skip-cert-verify: true
-- name: Karachi Pro 2
-  type: trojan
-  server: glad-lioness.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: glad-lioness.cougar315.yachts
-  skip-cert-verify: true
-- name: Ashburn Pro 1
-  type: trojan
-  server: relaxed-ray.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: relaxed-ray.cougar315.yachts
-  skip-cert-verify: true
-- name: Sydney 4
-  type: trojan
-  server: saved-ghoul.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: saved-ghoul.cougar315.yachts
-  skip-cert-verify: true
-- name: Riyadh Pro 1
-  type: trojan
-  server: clear-hawk.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: clear-hawk.cougar315.yachts
-  skip-cert-verify: true
-- name: Kathmandu Pro 1
-  type: trojan
-  server: main-gobbler.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: main-gobbler.cougar315.yachts
-  skip-cert-verify: true
-- name: Chicago 7
-  type: trojan
-  server: smiling-dory.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: smiling-dory.cougar315.yachts
-  skip-cert-verify: true
-- name: Florence Pro 1
-  type: trojan
-  server: real-monitor.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: real-monitor.cougar315.yachts
-  skip-cert-verify: true
-- name: Seoul Pro 2
-  type: trojan
-  server: daring-dinosaur.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: daring-dinosaur.cougar315.yachts
-  skip-cert-verify: true
-- name: Barcelona Pro 1
-  type: trojan
-  server: major-insect.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: major-insect.cougar315.yachts
-  skip-cert-verify: true
-- name: Ashburn 1
-  type: trojan
-  server: relaxed-ray.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: relaxed-ray.cougar315.yachts
-  skip-cert-verify: true
-- name: Helsinki 6
-  type: trojan
-  server: glad-serval.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: glad-serval.cougar315.yachts
-  skip-cert-verify: true
-- name: Sydney Pro 1
-  type: trojan
-  server: fine-pheasant.cougar315.yachts
-  port: 443
-  password: '3690911436885991424'
-  udp: true
-  sni: fine-pheasant.cougar315.yachts
-  skip-cert-verify: true
 - name: HK-香港-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 15198
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: HK-香港-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 20322
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: US-美国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 10741
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: US-美国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 44167
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: DE-德国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 29909
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: DE-德国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 48429
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: UK-英国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 16303
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: UK-英国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 10540
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: JP-日本-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 11482
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: JP-日本-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 53054
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: TW-台湾-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 15838
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: TW-台湾-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 10279
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: TM-新加坡-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 11889
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: TM-新加坡-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 54091
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: TM-马来西亚-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 11889
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: TM-马来西亚-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 54091
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: FLB-菲律宾-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 35541
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: FLB-菲律宾-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 47140
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: TG-泰国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 25770
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: TG-泰国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 20534
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: VN-越南-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 25770
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: VN-越南-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 20534
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: KH-柬埔寨-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 36432
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: KH-柬埔寨-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 57038
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: FR-法国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 49212
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: FR-法国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 39980
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: KR-韩国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 49212
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: KR-韩国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 39980
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: RU-土耳其-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 47708
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
 - name: RU-土耳其-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 52562
   cipher: aes-128-gcm
-  password: 2d7e7c24-59fa-4020-827c-afe1a10b1d0d
+  password: 7fa96147-b270-40be-a118-1ae276b0ab7a
   udp: true
-- name: swiss
+- name: uk_manchester
   type: ss
-  server: 158.173.152.168
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: japan
-  type: ss
-  server: 149.22.87.204
+  server: 141.98.101.178
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
 - name: us_seattle
   type: ss
-  server: 158.173.153.3
+  server: 158.173.153.6
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us_south_west
+  type: ss
+  server: 156.146.38.167
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -878,16 +889,16 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: uk_manchester
+- name: nl_amsterdam
   type: ss
-  server: 141.98.101.178
+  server: 158.173.20.169
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: uk
+- name: swiss
   type: ss
-  server: 158.173.24.69
+  server: 158.173.152.168
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -899,23 +910,23 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
+- name: uk
+  type: ss
+  server: 158.173.24.69
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: japan
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
 - name: ca_vancouver
   type: ss
-  server: 149.22.95.123
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: us_south_west
-  type: ss
-  server: 156.146.38.169
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: nl_amsterdam
-  type: ss
-  server: 158.173.20.170
+  server: 149.22.95.121
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -2444,19 +2455,59 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: 每日连接前先点更新订阅
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: b64f1d7e-1962-40e4-8546-046c0c9b5877
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
 - name: 点转盘图标或右滑订阅更新
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 49213
-  password: a30aca7e-b361-42fd-9745-4fa6d95f82b5
+  password: 65a2b96a-1637-4fd6-9a60-ec0a31b9ecb3
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
-- name: 🇭🇰 香港 01
+- name: 个别线路无法使用自行更换
   type: trojan
   server: xiaozhu1.kkieo555.cn
-  port: 49213
-  password: fed36fdb-7b63-4c33-8389-76b749047223
+  port: 41273
+  password: 00c45f20-9fd8-4225-b598-23fde067ef6e
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 行业唯一买多久用多久
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 77dadaca-fda7-4a41-a962-db0a24d4317f
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 高速/稳定/安全/诚信
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 6b547387-cb88-416f-aa6e-a92f212609a8
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 个别线路无法使用自行更换
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 1455b027-d8f0-4af4-8db6-0b40ad47d199
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 感谢您的支持和厚爱
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: c195bb1a-a8b5-4e27-8bc5-e3db5bbf1255
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2464,7 +2515,7 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 49213
-  password: 6e64de31-6651-4b96-bd0d-a6c2868045e5
+  password: 5d57c5fc-c14f-4a59-988d-06d5f47d0837
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2472,7 +2523,31 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 41273
-  password: 4b716d4e-2d2f-4d3a-b696-feb00a889921
+  password: 8efd73a4-20bd-444b-84c5-47a63e3db4a6
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: a26c2b02-c4c0-4685-b000-0ded51d0ca79
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 6e546269-3048-46c7-a961-8fe9f706c0a5
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: ec1ec5f1-103f-46ea-ad19-46df5c19ec31
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2480,7 +2555,7 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 41273
-  password: 9321b4b2-89d1-41f9-a77d-334d49a65f32
+  password: 847e8479-7884-46d1-a23e-edfba99aeafa
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2488,7 +2563,7 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 41274
-  password: 0a7e80b3-725f-4b4f-a779-b1b369f39a14
+  password: 0afa3513-5996-4df6-a62f-b8025ca52545
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2496,7 +2571,55 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 41275
-  password: 9ec4cb72-4b0f-4b42-ac6c-228a7bb28bab
+  password: 0066d7d9-fcee-4c90-998e-d9b29d46ed14
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: dbc8785a-ef78-40b6-aad8-5e5e5c69d4f8
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: b68cf61f-db35-4404-9552-0f3398fee631
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 24505a7a-dcfb-46e9-b699-ccd8a5fb3ad3
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 1007e17a-c4ab-4d05-bc16-fdc00d90ab99
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 0878929d-43ca-474b-8751-16fb4284736d
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 442bdce7-2d1d-4de9-afef-8fc8f497670e
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2504,23 +2627,7 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 41275
-  password: 234c1124-2b50-4522-9067-87a9774cc326
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡1
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 41277
-  password: eb1640f8-104e-4191-ae44-b747d69dd802
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-- name: 🇰🇷 韩国01
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 49214
-  password: 4b4fd645-d643-402a-86aa-7c7da1e0ccaa
+  password: e9453872-1455-4db2-bdc2-7e2541c32c76
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2528,7 +2635,87 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 30210
-  password: 4f8c3cd4-c137-49dc-8fef-1f7a15b917a0
+  password: be429d28-c79d-4a01-97e7-942c892d6060
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: cab3dbf8-dcc2-4b64-877a-3948dea509ea
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: eb8cce55-ccf8-4f9c-a24d-cc4735dd6a7e
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: d1a6756b-f392-4d61-9b2b-b9014f0a7d61
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 929fbd86-1795-401a-bb59-7c8e62adfe7f
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: ad661af5-7382-4403-bf22-90ad93315cc2
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: e464370b-b52e-425a-a143-2b2265f6bd60
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 222a527f-09ad-4ed8-a09b-3efc37ca1d20
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 187508a9-a3da-44b4-a34b-4fd3316fc161
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: 8095c579-ea8c-4a2f-a597-ff59205be94c
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇰🇷 韩国01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49214
+  password: 9f73f183-c04b-46d8-bbd4-a7809e31a214
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2536,7 +2723,7 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 19216
-  password: ec88a9f2-d02b-4e7b-80b7-742d011a2aac
+  password: 86fca914-668b-4a89-9cb1-a1f9f5127679
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2544,31 +2731,7 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 49213
-  password: 5e91cdb0-a6ea-4949-a41a-428d2067f9d6
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-- name: 🇭🇰 香港 02
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 49213
-  password: 241729bf-d57b-46b2-8961-f40b5797a335
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-- name: 🇭🇰 香港 02
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 49213
-  password: 2208a979-5180-4339-b392-a69389d032a4
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-- name: 🇯🇵日本1
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 41273
-  password: 8f6636a5-3518-4eaa-ab36-645a0fb4bfd7
+  password: d4a9d2f5-5258-49ac-868e-16d1ec082abc
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2576,15 +2739,7 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 41273
-  password: 1a0dfad6-8783-435c-94ed-a612713f6e30
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-- name: 🇨🇳台湾1
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 41274
-  password: 9e1e9536-a92d-4c81-b7ca-b71f6a547cab
+  password: 4b62b008-347f-43f5-8215-b26569a8fd8c
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2592,23 +2747,15 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 41275
-  password: 426db69b-592c-435f-ab32-f7035e19843b
+  password: 521cef83-fbf5-46b5-9aab-6d14134f8145
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
-- name: 🇸🇬 新加坡1
+- name: 🇨🇳台湾1
   type: trojan
   server: xiaozhu1.kkieo555.cn
-  port: 41277
-  password: 1b57f237-7277-46be-b2b6-df11c773ec80
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-- name: 🇰🇷 韩国01
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 49214
-  password: 9c7c84e2-84bd-48a1-85f4-642d47c6cb77
+  port: 41274
+  password: e62bf1fb-2472-4c85-9bb8-dd8b1a00beb0
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2616,31 +2763,39 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 30210
-  password: 9702324d-e3ea-45c8-8312-05cc4bd4e13f
+  password: 86870dd7-054e-487e-b4d1-d216f7d5804e
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
-- name: 🇭🇰 香港 01
+- name: 🇺🇸美国西雅图原生
   type: trojan
   server: xiaozhu1.kkieo555.cn
-  port: 49213
-  password: 216dc975-1685-4546-bad0-65f9cfce00a6
+  port: 30210
+  password: 6b753f2a-4838-442d-bc6e-49dd992c681d
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
-- name: 🇭🇰 香港 02
+- name: 🇺🇸 美国纽约
   type: trojan
   server: xiaozhu1.kkieo555.cn
-  port: 49213
-  password: 9d3d25ce-5099-4db8-898c-3af7b6966dbf
+  port: 41275
+  password: feb50cbd-4a71-4794-81b7-1d72c01353ae
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
-- name: 🇰🇷 韩国01
+- name: 🇨🇳台湾1
   type: trojan
   server: xiaozhu1.kkieo555.cn
-  port: 49214
-  password: 9d3d25ce-5099-4db8-898c-3af7b6966dbf
+  port: 41274
+  password: 8590802e-7964-4dfc-8694-58860975b4d2
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 1899410f-bcd7-407d-8c54-f7c4c369e4de
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2648,7 +2803,191 @@ proxies:
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 41273
-  password: d3a35de7-0bb4-4360-b268-7ebc4f7161eb
+  password: e42cfd72-e58d-4697-83f2-163ab37a33b4
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: b38b1094-76aa-449b-b42c-10b1a53ef4d3
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 11104573-2ecc-42b8-8943-62ab62cae91f
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 9b8dfd7a-e1ef-45e5-abd1-7625413df6b1
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 035aa3a0-1f41-4ece-a8bd-173f3692e006
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 38aba8b0-f818-4df4-8148-a0deb113247e
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: c3f700e9-46fc-4958-a0ce-a2e0d0bf32b8
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 49242683-70ae-4085-9af9-5bbc042fc902
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: f879ddde-92a4-4ad4-be47-6419a7cb059e
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 57978a81-30ca-4709-9ffc-cee94a7eb689
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: c999a917-0af9-4350-8d42-15ab27a7d923
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: 7006eadc-b41c-4ad0-908b-73237ce756f2
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: 6b67ec7b-14ad-41a1-905a-e56c90406228
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: a086c958-9725-4f61-9fc5-75c1878a215f
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 2aa0770c-7807-4870-9d5e-b1458b7e86da
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 01
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 7b02d901-3c6c-4ba8-8781-32735d849e77
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 66822106-e9b6-44b1-95f3-6d01262f4942
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 49030d06-fb69-4b5e-bbd0-3fdd15c7afd3
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇯🇵日本2
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41273
+  password: 7e1ba320-ca5a-4005-9abb-c9ec8d204356
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇨🇳台湾1
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41274
+  password: 3e9ed5c9-325f-4757-b9e4-983827bf9986
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸 美国纽约
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 41275
+  password: b483076b-99e5-4c82-bb28-84dd45ea885f
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国西雅图原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 30210
+  password: fbd3b763-1b7c-4d97-b860-6a9f8bc5ece7
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇺🇸美国洛杉矶原生
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 19216
+  password: bcd9f2be-ce6a-405a-adc7-8133a3231b61
+  udp: true
+  sni: xiaozhu1.kkieo555.cn
+  skip-cert-verify: true
+- name: 🇭🇰 香港 02
+  type: trojan
+  server: xiaozhu1.kkieo555.cn
+  port: 49213
+  password: 95d8ac4e-89e3-469f-9e12-832b9bb7c59e
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2740,14 +3079,6 @@ proxies:
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
-- name: 🇭🇰 香港 02
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 49213
-  password: 929fbd86-1795-401a-bb59-7c8e62adfe7f
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
 - name: 🇯🇵日本1
   type: trojan
   server: xiaozhu1.kkieo555.cn
@@ -2769,14 +3100,6 @@ proxies:
   server: xiaozhu1.kkieo555.cn
   port: 41273
   password: eb8cce55-ccf8-4f9c-a24d-cc4735dd6a7e
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-- name: 🇯🇵日本1
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 41273
-  password: cab3dbf8-dcc2-4b64-877a-3948dea509ea
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -2833,14 +3156,6 @@ proxies:
   server: xiaozhu1.kkieo555.cn
   port: 41277
   password: b68cf61f-db35-4404-9552-0f3398fee631
-  udp: true
-  sni: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-- name: 🇨🇳台湾1
-  type: trojan
-  server: xiaozhu1.kkieo555.cn
-  port: 41274
-  password: dbc8785a-ef78-40b6-aad8-5e5e5c69d4f8
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
@@ -3012,90 +3327,55 @@ proxies:
   udp: true
   sni: xiaozhu1.kkieo555.cn
   skip-cert-verify: true
-- name: HK1
-  type: trojan
-  server: tuntro001.instconn.com
-  port: 443
-  password: d7abd3e3-0455-4e27-8544-8788d7a84d7a
-  udp: true
-  sni: www.westarthk.686911.xyz
-  skip-cert-verify: true
-- name: 日本-全网+|+JP-4
-  type: trojan
-  server: tuntro003.instconn.com
-  port: 443
-  password: d7abd3e3-0455-4e27-8544-8788d7a84d7a
-  udp: true
-  sni: nicovideo.686911.xyz
-  skip-cert-verify: true
-- name: 美国-电信+|+US-2
-  type: trojan
-  server: tuntro005.instconn.com
-  port: 443
-  password: d7abd3e3-0455-4e27-8544-8788d7a84d7a
-  udp: true
-  sni: python.686911.xyz
-  skip-cert-verify: true
-- name: 香港 01【IEPL】
+- name: 每日连接前右上角三横
   type: vmess
   server: laeg.hsymanuscript.top
   port: 19501
-  uuid: 61f535e5-d926-443a-9353-6c95e63fea75
+  uuid: 522c746b-f57a-48d1-9d6c-01edd89b2a16
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 日本丨解GPT
+- name: 位置进去点“更新订阅”
   type: vmess
   server: laeg.hsymanuscript.top
   port: 19503
-  uuid: 3d671f6c-b8ee-4e9c-87bc-df1f59316f86
+  uuid: 6e87672c-278e-4a2e-84ba-79e4b24d0179
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 新加坡丨解GPT
+- name: 正下方显示"成功"再连接
   type: vmess
   server: laeg.hsymanuscript.top
-  port: 49510
-  uuid: 2449a642-0853-4049-b273-24cd1fba26bf
+  port: 19503
+  uuid: cb900348-7745-40c6-be92-ebd4ffd2aa32
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 美国 01【IEPL】
+- name: 有问题也可留言购买客服
   type: vmess
   server: laeg.hsymanuscript.top
   port: 49504
-  uuid: a24348eb-999a-4a19-bf41-ef36082d08ab
+  uuid: 65d66b07-3b5c-45ff-bc39-12a38f53e745
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 美国 02【IEPL】
+- name: 感谢您的支持和厚爱！
   type: vmess
   server: laeg.hsymanuscript.top
   port: 49512
-  uuid: 9a076b60-7a46-4b76-995d-2863d45b1349
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: 新加坡解GPT
-  type: vmess
-  server: laeg.hsymanuscript.top
-  port: 49513
-  uuid: 25df481a-5816-4224-bcae-ac8366135812
+  uuid: cd671aa6-32d2-4440-80e7-89b112625d3d
   alterId: 0
   cipher: auto
   udp: true
@@ -3106,7 +3386,18 @@ proxies:
   type: vmess
   server: laeg.hsymanuscript.top
   port: 49517
-  uuid: 4211c938-9022-4105-9385-6394cc1ed80b
+  uuid: a2ba52ae-bed7-4443-9286-98de3668a6eb
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 日本丨解GPT
+  type: vmess
+  server: laeg.hsymanuscript.top
+  port: 19503
+  uuid: 1d325169-0e63-473f-bc73-23d11836c475
   alterId: 0
   cipher: auto
   udp: true
@@ -3117,28 +3408,6 @@ proxies:
   type: vmess
   server: laeg.hsymanuscript.top
   port: 19501
-  uuid: 67c84b1a-1b29-4244-b870-2f3b7a48bc74
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: 香港 01【IEPL】
-  type: vmess
-  server: laeg.hsymanuscript.top
-  port: 19501
-  uuid: 556cb475-9f9f-436b-aa06-163afc5511f6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: 新加坡丨解GPT
-  type: vmess
-  server: laeg.hsymanuscript.top
-  port: 49510
   uuid: 69484bd4-4851-4bc3-b5f0-fa8aab838329
   alterId: 0
   cipher: auto
@@ -3172,62 +3441,73 @@ proxies:
   type: vmess
   server: laeg.hsymanuscript.top
   port: 19501
-  uuid: 308bcf09-f203-4260-b71d-65ec19fc5d8b
+  uuid: 25df481a-5816-4224-bcae-ac8366135812
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 每日连接前右上角三横
+- name: 日本丨解GPT
   type: vmess
-  server: 5.wogg1.top
-  port: 11205
-  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
-  alterId: 2
+  server: laeg.hsymanuscript.top
+  port: 19503
+  uuid: a24348eb-999a-4a19-bf41-ef36082d08ab
+  alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 位置进去点“更新订阅”
+- name: 新加坡丨解GPT
   type: vmess
-  server: 8.wogg1.top
-  port: 11208
-  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
-  alterId: 2
+  server: laeg.hsymanuscript.top
+  port: 49510
+  uuid: 3d671f6c-b8ee-4e9c-87bc-df1f59316f86
+  alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 正下方显示"成功"再连接
+- name: 美国 01【IEPL】
   type: vmess
-  server: 9.wogg1.top
-  port: 11209
-  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
-  alterId: 2
+  server: laeg.hsymanuscript.top
+  port: 49504
+  uuid: 9a076b60-7a46-4b76-995d-2863d45b1349
+  alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 感谢您的支持和厚爱！
+- name: 美国 02【IEPL】
   type: vmess
-  server: 16.wogg1.top
-  port: 11216
-  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
-  alterId: 2
+  server: laeg.hsymanuscript.top
+  port: 49512
+  uuid: 2449a642-0853-4049-b273-24cd1fba26bf
+  alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 有问题可联系购买客服
+- name: 马来西亚丨解GPT
   type: vmess
-  server: 23.wogg1.top
-  port: 11223
-  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  server: laeg.hsymanuscript.top
+  port: 49517
+  uuid: 4211c938-9022-4105-9385-6394cc1ed80b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 香港1
+  type: vmess
+  server: 3.wogg1.top
+  port: 11203
+  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
   alterId: 2
   cipher: auto
   udp: true
@@ -3238,7 +3518,7 @@ proxies:
   type: vmess
   server: 13.wogg1.top
   port: 11213
-  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
   alterId: 2
   cipher: auto
   udp: true
@@ -3249,13 +3529,59 @@ proxies:
   type: vmess
   server: 15.wogg1.top
   port: 11215
-  uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
+  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
   alterId: 2
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: 美国1
+  type: vmess
+  server: 21.wogg1.top
+  port: 11221
+  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
+  alterId: 2
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 台湾GPT
+  type: vmess
+  server: 23.wogg1.top
+  port: 11223
+  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
+  alterId: 2
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: HK1
+  type: trojan
+  server: tuntro001.instconn.com
+  port: 443
+  password: d7abd3e3-0455-4e27-8544-8788d7a84d7a
+  udp: true
+  sni: www.westarthk.686911.xyz
+  skip-cert-verify: true
+- name: 日本-全网+|+JP-4
+  type: trojan
+  server: tuntro003.instconn.com
+  port: 443
+  password: d7abd3e3-0455-4e27-8544-8788d7a84d7a
+  udp: true
+  sni: nicovideo.686911.xyz
+  skip-cert-verify: true
+- name: 美国-电信+|+US-2
+  type: trojan
+  server: tuntro005.instconn.com
+  port: 443
+  password: d7abd3e3-0455-4e27-8544-8788d7a84d7a
+  udp: true
+  sni: python.686911.xyz
+  skip-cert-verify: true
 - name: V1-日本A 隧道 1.6x
   type: vmess
   server: pub.ap20250909.xyz
@@ -3326,77 +3652,78 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - 181
-  - 178
-  - 470
-  - 186
-  - 723
-  - 198
-  - 158
-  - 264
-  - 185
+  - 188
+  - 945
+  - 943
   - 190
-  - London 6
-  - Singapore Pro 5
-  - London Pro 5
-  - Ashburn 4
-  - Helsinki 7
-  - Chicago 3
-  - Bangkok Pro 1
-  - Tokyo 1
-  - Mumbai Pro 1
-  - Helsinki Pro 7
-  - Seoul Pro 4
-  - Frankfurt 14
-  - Frankfurt 13
-  - Singapore 6
-  - Sydney Pro 4
-  - Amsterdam Pro 2
-  - Singapore Pro 6
-  - Montreal Pro 3
-  - London 5
-  - Singapore Pro 8
-  - London Pro 6
-  - Tokyo Pro 1
-  - Manama Pro 1
-  - Chicago Pro 3
-  - Singapore Pro 9
-  - Singapore Pro 3
-  - Singapore Pro 4
-  - Frankfurt Pro 13
-  - Frankfurt 12
-  - Warsaw Pro 2
-  - Chicago Pro 5
-  - Sydney Pro 2
-  - Frankfurt Pro 12
-  - Singapore 8
-  - Chicago Pro 7
-  - Frankfurt Pro 14
-  - Amsterdam 2
-  - Frankfurt Pro 4
-  - Helsinki Pro 6
-  - Frankfurt 11
-  - Ashburn Pro 4
-  - Sydney 3
-  - Fujairah Pro 1
-  - Frankfurt Pro 11
-  - Sydney Pro 3
-  - Chicago Pro 6
-  - Moscow Pro 3
-  - Frankfurt 4
-  - Warsaw 2
-  - Karachi Pro 2
-  - Ashburn Pro 1
-  - Sydney 4
-  - Riyadh Pro 1
-  - Kathmandu Pro 1
-  - Chicago 7
-  - Florence Pro 1
+  - 187
+  - 1191
+  - 585
+  - 201
+  - 220
+  - 1118
+  - 1156
   - Seoul Pro 2
-  - Barcelona Pro 1
+  - Ashburn 4
+  - Sydney Pro 3
+  - Seoul Pro 4
+  - Amsterdam 2
+  - Tokyo 1
+  - Sydney 4
+  - Fujairah Pro 1
+  - London 5
   - Ashburn 1
+  - Frankfurt 11
+  - Frankfurt Pro 11
+  - Frankfurt Pro 4
+  - Singapore 6
+  - Manama Pro 1
+  - Frankfurt 14
+  - London Pro 6
+  - Helsinki 7
+  - Kathmandu Pro 1
+  - Warsaw Pro 2
+  - Frankfurt 4
+  - London 6
+  - Chicago Pro 5
+  - Barcelona Pro 1
+  - Sydney Pro 4
+  - Bangkok Pro 1
+  - Ashburn Pro 4
+  - Frankfurt Pro 12
   - Helsinki 6
+  - Florence Pro 1
+  - Chicago 3
+  - Karachi Pro 2
+  - Singapore Pro 6
+  - Warsaw 2
+  - Sydney Pro 2
+  - Singapore Pro 4
+  - Helsinki Pro 7
+  - Mumbai Pro 1
+  - Moscow Pro 3
+  - Singapore 8
+  - Chicago Pro 6
+  - Montreal Pro 3
+  - Frankfurt 12
+  - Amsterdam Pro 2
+  - Frankfurt 13
+  - Helsinki Pro 6
+  - Riyadh Pro 1
+  - London Pro 5
+  - Tokyo Pro 1
+  - Singapore Pro 3
+  - Singapore Pro 5
+  - Frankfurt Pro 14
+  - Singapore Pro 9
+  - Frankfurt Pro 13
+  - Chicago Pro 3
   - Sydney Pro 1
+  - Ashburn Pro 1
+  - Chicago 7
+  - Sydney 3
+  - Singapore Pro 8
+  - Chicago Pro 7
   - HK-香港-快速专线1
   - HK-香港-快速专线2
   - US-美国-快速专线1
@@ -3427,16 +3754,16 @@ proxy-groups:
   - KR-韩国-快速专线2
   - RU-土耳其-快速专线1
   - RU-土耳其-快速专线2
-  - swiss
-  - japan
-  - us_seattle
-  - us3
   - uk_manchester
-  - uk
-  - us-newjersey
-  - ca_vancouver
+  - us_seattle
   - us_south_west
+  - us3
   - nl_amsterdam
+  - swiss
+  - us-newjersey
+  - uk
+  - japan
+  - ca_vancouver
   - 🇳🇱 荷兰-V6|03 0.5x-1B
   - 🇹🇼 台湾中华电信-100MBPS-1D
   - 🇯🇵 日本-V6|05-1A
@@ -3573,48 +3900,87 @@ proxy-groups:
   - 🇳🇱 荷兰-V6|04 0.5x-1C
   - 🇯🇵 日本-V6|04-1C
   - 🇩🇪 德国-V6|01 0.5x-1C
+  - 每日连接前先点更新订阅
   - 点转盘图标或右滑订阅更新
+  - 个别线路无法使用自行更换
+  - 行业唯一买多久用多久
+  - 高速/稳定/安全/诚信
+  - 个别线路无法使用自行更换
+  - 感谢您的支持和厚爱
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
   - 🇭🇰 香港 01
   - 🇭🇰 香港 02
   - 🇯🇵日本1
   - 🇯🇵日本2
   - 🇨🇳台湾1
   - 🇺🇸 美国纽约
+  - 🇨🇳台湾1
+  - 🇯🇵日本2
+  - 🇯🇵日本1
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 01
+  - 🇺🇸 美国纽约
+  - 🇺🇸美国西雅图原生
+  - 🇯🇵日本1
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
+  - 🇯🇵日本2
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇺🇸美国西雅图原生
+  - 🇰🇷 韩国01
+  - 🇺🇸美国洛杉矶原生
+  - 🇭🇰 香港 01
+  - 🇯🇵日本2
+  - 🇺🇸 美国纽约
+  - 🇨🇳台湾1
+  - 🇺🇸美国西雅图原生
+  - 🇺🇸美国西雅图原生
+  - 🇺🇸 美国纽约
+  - 🇨🇳台湾1
+  - 🇯🇵日本1
+  - 🇯🇵日本2
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 01
+  - 🇯🇵日本1
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇺🇸 美国纽约
+  - 🇺🇸美国西雅图原生
+  - 🇭🇰 香港 02
+  - 🇯🇵日本2
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
+  - 🇯🇵日本2
+  - 🇨🇳台湾1
+  - 🇺🇸 美国纽约
+  - 🇺🇸美国西雅图原生
+  - 🇺🇸美国洛杉矶原生
+  - 🇭🇰 香港 02
+  - 🇭🇰 香港 01
+  - 🇭🇰 香港 02
+  - 🇯🇵日本1
+  - 🇨🇳台湾1
   - 🇺🇸 美国纽约
   - 🇸🇬 新加坡1
   - 🇰🇷 韩国01
   - 🇺🇸美国西雅图原生
   - 🇺🇸美国洛杉矶原生
   - 🇭🇰 香港 01
-  - 🇭🇰 香港 02
-  - 🇭🇰 香港 02
-  - 🇯🇵日本1
-  - 🇯🇵日本2
-  - 🇨🇳台湾1
-  - 🇺🇸 美国纽约
-  - 🇸🇬 新加坡1
-  - 🇰🇷 韩国01
-  - 🇺🇸美国西雅图原生
   - 🇭🇰 香港 01
-  - 🇭🇰 香港 02
-  - 🇰🇷 韩国01
-  - 🇯🇵日本2
-  - 🇭🇰 香港 01
-  - 🇭🇰 香港 02
-  - 🇯🇵日本1
-  - 🇨🇳台湾1
-  - 🇺🇸 美国纽约
-  - 🇸🇬 新加坡1
-  - 🇰🇷 韩国01
-  - 🇺🇸美国西雅图原生
-  - 🇺🇸美国洛杉矶原生
-  - 🇭🇰 香港 01
-  - 🇭🇰 香港 01
-  - 🇭🇰 香港 02
   - 🇯🇵日本1
   - 🇯🇵日本2
   - 🇯🇵日本1
-  - 🇯🇵日本1
   - 🇭🇰 香港 02
   - 🇭🇰 香港 01
   - 🇺🇸 美国纽约
@@ -3622,7 +3988,6 @@ proxy-groups:
   - 🇨🇳台湾1
   - 🇺🇸 美国纽约
   - 🇸🇬 新加坡1
-  - 🇨🇳台湾1
   - 🇭🇰 香港 01
   - 🇭🇰 香港 02
   - 🇯🇵日本1
@@ -3644,29 +4009,30 @@ proxy-groups:
   - 🇨🇳台湾1
   - 🇺🇸 美国纽约
   - 🇺🇸美国西雅图原�%9
-  - HK1
-  - 日本-全网+|+JP-4
-  - 美国-电信+|+US-2
+  - 每日连接前右上角三横
+  - 位置进去点“更新订阅”
+  - 正下方显示"成功"再连接
+  - 有问题也可留言购买客服
+  - 感谢您的支持和厚爱！
+  - 马来西亚丨解GPT
+  - 日本丨解GPT
+  - 香港 01【IEPL】
+  - 日本丨解GPT
+  - 美国 01【IEPL】
   - 香港 01【IEPL】
   - 日本丨解GPT
   - 新加坡丨解GPT
   - 美国 01【IEPL】
   - 美国 02【IEPL】
-  - 新加坡解GPT
   - 马来西亚丨解GPT
-  - 香港 01【IEPL】
-  - 香港 01【IEPL】
-  - 新加坡丨解GPT
-  - 日本丨解GPT
-  - 美国 01【IEPL】
-  - 香港 01【IEPL】
-  - 每日连接前右上角三横
-  - 位置进去点“更新订阅”
-  - 正下方显示"成功"再连接
-  - 感谢您的支持和厚爱！
-  - 有问题可联系购买客服
+  - 香港1
   - 韩国GPT1
   - 韩国GPT2
+  - 美国1
+  - 台湾GPT
+  - HK1
+  - 日本-全网+|+JP-4
+  - 美国-电信+|+US-2
   - V1-日本A 隧道 1.6x
   - V1-澳洲01 隧道 | 2x
   - V1-美国03 隧道 1.5x
