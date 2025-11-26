@@ -64,6 +64,7 @@ def get_vmess_nodes():
                     decrypted_data = cipher.decrypt(encrypted_data_bytes)
                     node_info = decrypted_data.decode('utf-8', errors='ignore').rstrip('\x00')
                     if node_info.startswith('vmess://'):
+                        print(node_info)
                         nodes.add(node_info)
             except Exception as e:
                 continue
@@ -136,6 +137,7 @@ def get_supervpn_nodes():
                         name = node.get('name', 'Unknown')
                         if host:
                             link = f"trojan://{uid}@{host}:443#{name}"
+                            print(link)
                             nodes.append(link)
                     except Exception:
                         continue
@@ -213,6 +215,7 @@ def get_tianmiao_nodes():
                             if node_group["type"] == "vip" and "node" in node_group:
                                 for node in node_group["node"]:
                                     if isinstance(node, dict) and "url" in node:
+                                        print(node["url"])
                                         nodes.append(node["url"])
         
         print(f"  ✅ 采集到 {len(nodes)} 个天猫VPN节点")
@@ -258,6 +261,7 @@ def get_pia_nodes():
                     cipher_key = f"{item['cipher']}:{item['key']}"
                     encoded_cipher_key = base64.b64encode(cipher_key.encode()).decode()
                     ss_link = f"ss://{encoded_cipher_key}@{item['host']}:{item['port']}#{item['region']}"
+                    print(ss_link)
                     nodes.add(ss_link)
         except Exception:
             pass
@@ -319,7 +323,7 @@ def get_marketinginmyhouse_nodes():
                     
                     # 生成最终的 SSR 链接
                     ssr_link = f"ssr://{ssr_encoded}"
-                    
+                    print(ssr_link)
                     nodes.append(ssr_link)
                     
                 except Exception as e:
@@ -375,6 +379,7 @@ def get_paidaxing_nodes():
                     p = f"aes-256-cfb:{o['password']}@{o['ip']}:{o['port']}"
                     q = base64.b64encode(p.encode('utf-8')).decode('utf-8')
                     r = f"ss://{q}#{o['title']}"
+                    print(r)
                     nodes.append(r)
         
         print(f"  ✅ 采集到 {len(nodes)} 个派大星节点")
@@ -416,11 +421,13 @@ def get_subscription_nodes():
         "https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/v2ray.txt",
         "https://raw.githubusercontent.com/jianguogongyong/ssr_subscrible_tool/refs/heads/master/node.txt",
         "https://raw.githubusercontent.com/jgchengxin/ssr_subscrible_tool/refs/heads/master/node.txt",
+        "https://raw.githubusercontent.com/hzcsure/hzcsure/refs/heads/main/example.txt",
     ]
     
     for url in subscription_urls:
         try:
             nodes = get_nodes_from_subscription(url)
+            print(nodes)
             all_nodes.extend(nodes)
         except Exception:
             continue
