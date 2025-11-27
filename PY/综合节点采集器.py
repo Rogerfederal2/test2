@@ -590,8 +590,8 @@ def main():
     all_nodes = []
     
     # 采集各个源的节点
-    all_nodes.extend(get_vmess_nodes())
-    all_nodes.extend(get_supervpn_nodes())
+    #all_nodes.extend(get_vmess_nodes())节点无效
+    #all_nodes.extend(get_supervpn_nodes())节点无效
     all_nodes.extend(get_tianmiao_nodes())
     all_nodes.extend(get_pia_nodes())
     all_nodes.extend(get_paidaxing_nodes())
