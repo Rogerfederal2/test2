@@ -12,221 +12,214 @@ proxies:
   server: shrimp-door-9527.gym0boy.com
   port: 15198
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: HK-香港-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 20322
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: US-美国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 10741
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: US-美国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 44167
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: DE-德国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 29909
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: DE-德国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 48429
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: UK-英国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 16303
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: UK-英国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 10540
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: JP-日本-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 11482
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: JP-日本-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 53054
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: TW-台湾-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 15838
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: TW-台湾-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 10279
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: TM-新加坡-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 11889
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: TM-新加坡-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 54091
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: TM-马来西亚-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 11889
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: TM-马来西亚-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 54091
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: FLB-菲律宾-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 35541
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: FLB-菲律宾-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 47140
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: TG-泰国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 25770
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: TG-泰国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 20534
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: VN-越南-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 25770
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: VN-越南-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 20534
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: KH-柬埔寨-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 36432
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: KH-柬埔寨-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 57038
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: FR-法国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 49212
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: FR-法国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 39980
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: KR-韩国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 49212
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: KR-韩国-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 39980
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: RU-土耳其-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 47708
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: RU-土耳其-快速专线2
   type: ss
   server: mali-hong.gym0boy.com
   port: 52562
   cipher: aes-128-gcm
-  password: cdb60118-c3ca-4612-afcf-16a561adeea4
+  password: 22d8f521-1abb-4c63-9dcc-85b184eaae1d
   udp: true
 - name: swiss
   type: ss
   server: 158.173.152.165
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: uk_manchester
-  type: ss
-  server: 141.98.101.179
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -238,30 +231,9 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: us3
+- name: uk
   type: ss
-  server: 173.244.56.10
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: nl_amsterdam
-  type: ss
-  server: 158.173.20.207
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: us_south_west
-  type: ss
-  server: 156.146.38.168
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: us_seattle
-  type: ss
-  server: 158.173.153.6
+  server: 158.173.24.67
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -280,9 +252,37 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: uk
+- name: us_seattle
   type: ss
-  server: 158.173.24.69
+  server: 158.173.153.2
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us_south_west
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us3
+  type: ss
+  server: 173.244.56.3
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: uk_manchester
+  type: ss
+  server: 141.98.101.182
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: nl_amsterdam
+  type: ss
+  server: 158.173.20.211
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -2830,15 +2830,15 @@ proxy-groups:
   - RU-土耳其-快速专线1
   - RU-土耳其-快速专线2
   - swiss
-  - uk_manchester
   - japan
-  - us3
-  - nl_amsterdam
-  - us_south_west
-  - us_seattle
+  - uk
   - us-newjersey
   - ca_vancouver
-  - uk
+  - us_seattle
+  - us_south_west
+  - us3
+  - uk_manchester
+  - nl_amsterdam
   - 🇳🇱 荷兰-V6|03 0.5x-1B
   - 🇹🇼 台湾中华电信-100MBPS-1D
   - 🇯🇵 日本-V6|05-1A
