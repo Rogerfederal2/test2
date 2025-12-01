@@ -12,256 +12,228 @@ proxies:
   server: shrimp-door-9527.gym0boy.com
   port: 15198
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: HK-香港-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 20322
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: US-美国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 10741
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: US-美国-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 44167
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: DE-德国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 29909
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: DE-德国-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 48429
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: UK-英国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 16303
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: UK-英国-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 10540
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: JP-日本-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 11482
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: JP-日本-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 53054
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: TW-台湾-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 15838
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: TW-台湾-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 10279
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: TM-新加坡-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 11889
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: TM-新加坡-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 54091
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: TM-马来西亚-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 11889
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: TM-马来西亚-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 54091
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: FLB-菲律宾-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 35541
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: FLB-菲律宾-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 47140
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: TG-泰国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 25770
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: TG-泰国-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 20534
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: VN-越南-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 25770
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: VN-越南-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 20534
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: KH-柬埔寨-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 36432
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: KH-柬埔寨-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 57038
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: FR-法国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 49212
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: FR-法国-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 39980
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: KR-韩国-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 37748
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: KR-韩国-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 16045
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: RU-土耳其-快速专线1
   type: ss
   server: shrimp-door-9527.gym0boy.com
   port: 47708
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
 - name: RU-土耳其-快速专线2
   type: ss
   server: shainto.gym0boy.com
   port: 52562
   cipher: aes-128-gcm
-  password: d53217a2-a9b9-4bb5-b9e5-fe3ee9f16548
+  password: dafed052-956d-4c38-915d-3292bc81a21f
   udp: true
-- name: us3
+- name: nl_amsterdam
   type: ss
-  server: 173.244.56.5
+  server: 158.173.20.210
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
 - name: us_south_west
   type: ss
-  server: 156.146.38.170
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: ca_vancouver
-  type: ss
-  server: 149.22.95.183
+  server: 156.146.38.168
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
 - name: uk
   type: ss
-  server: 158.173.24.76
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: us-newjersey
-  type: ss
-  server: 37.19.198.244
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: nl_amsterdam
-  type: ss
-  server: 158.173.20.169
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: us_seattle
-  type: ss
-  server: 158.173.153.5
+  server: 158.173.24.74
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -273,16 +245,44 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
+- name: ca_vancouver
+  type: ss
+  server: 149.22.95.123
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us3
+  type: ss
+  server: 173.244.56.4
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
 - name: uk_manchester
   type: ss
-  server: 141.98.101.182
+  server: 141.98.101.181
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us_seattle
+  type: ss
+  server: 158.173.153.4
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
 - name: swiss
   type: ss
-  server: 158.173.152.168
+  server: 158.173.152.165
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: us-newjersey
+  type: ss
+  server: 37.19.198.236
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
@@ -3199,7 +3199,7 @@ proxies:
   type: vmess
   server: tyl.zgseag.top
   port: 19501
-  uuid: 067ea336-9155-4809-a0cb-2da8ac14fc6e
+  uuid: 0df00f44-9b0e-4dd0-970e-f89f54830536
   alterId: 0
   cipher: auto
   udp: true
@@ -3210,7 +3210,7 @@ proxies:
   type: vmess
   server: tyl.zgseag.top
   port: 19503
-  uuid: 34cd7abf-ebd5-48b9-85d6-61d66106b7fd
+  uuid: 1ef9091c-60af-4c31-8555-f7da179e23a0
   alterId: 0
   cipher: auto
   udp: true
@@ -3220,8 +3220,8 @@ proxies:
 - name: 正下方显示成功后再连接
   type: vmess
   server: tyl.zgseag.top
-  port: 49510
-  uuid: 55260ed1-b478-490f-bf07-a9df3f93047c
+  port: 19503
+  uuid: 5280f841-ef28-4d10-a596-8d7535b903cd
   alterId: 0
   cipher: auto
   udp: true
@@ -3232,29 +3232,51 @@ proxies:
   type: vmess
   server: tyl.zgseag.top
   port: 49504
-  uuid: 6f1ca2ae-e089-4452-922f-ab99f4cbe13a
+  uuid: 751460a3-32bd-4350-a1f2-3e432d3208f1
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 感谢您的支持和厚爱
+- name: 严禁发表/转发不当内容
+  type: vmess
+  server: tyl.zgseag.top
+  port: 49517
+  uuid: cd751926-4fb7-4801-a751-03d91b741036
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 严格遵守当地法律法规
+  type: vmess
+  server: tyl.zgseag.top
+  port: 19503
+  uuid: 2718ab04-a87c-4b9e-9bf9-28b9ffa1003f
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 感谢您的支持和厚爱!
   type: vmess
   server: tyl.zgseag.top
   port: 49512
-  uuid: 6f13a206-9502-4e46-85ae-646d4bff9dbd
+  uuid: b0211b7d-76f1-4579-9653-b762e3cb7f40
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: 日本原生ip
+- name: 新加坡丨解GPT
   type: vmess
   server: tyl.zgseag.top
-  port: 49515
-  uuid: 1cff8759-fb5c-4062-a1fa-78bb86053c51
+  port: 49510
+  uuid: 6041a864-45c4-4b4c-a6fa-7c5c1dab3340
   alterId: 0
   cipher: auto
   udp: true
@@ -3265,7 +3287,7 @@ proxies:
   type: vmess
   server: tyl.zgseag.top
   port: 49504
-  uuid: d5ad6b7f-7498-457f-aba9-77c2340167d0
+  uuid: 8960f767-5ee7-49e4-8b98-a820d90bab76
   alterId: 0
   cipher: auto
   udp: true
@@ -3276,7 +3298,7 @@ proxies:
   type: vmess
   server: tyl.zgseag.top
   port: 19501
-  uuid: c49a4bfc-db32-4dba-8a77-7a60c2567b1f
+  uuid: 116fd737-dfa1-4b26-a8aa-ea1433ec8ce3
   alterId: 0
   cipher: auto
   udp: true
@@ -3287,7 +3309,7 @@ proxies:
   type: vmess
   server: tyl.zgseag.top
   port: 49504
-  uuid: fa8cb6df-8149-4a2c-be91-693a9296d95e
+  uuid: 6c6cf4fd-f2bf-4721-8439-a7a4d4b6ef06
   alterId: 0
   cipher: auto
   udp: true
@@ -3298,7 +3320,106 @@ proxies:
   type: vmess
   server: tyl.zgseag.top
   port: 49512
-  uuid: c49a4bfc-db32-4dba-8a77-7a60c2567b1f
+  uuid: a451ff62-10b1-4422-aa95-f1a99af0aff0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 香港 01【IEPL】
+  type: vmess
+  server: tyl.zgseag.top
+  port: 19501
+  uuid: 2b2b5460-7347-4883-89d0-34f9c2a50c7b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 日本丨解GPT
+  type: vmess
+  server: tyl.zgseag.top
+  port: 19503
+  uuid: 3f5b773c-4149-4f64-80e5-c8bce655ad69
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 日本原生ip
+  type: vmess
+  server: tyl.zgseag.top
+  port: 49515
+  uuid: dfe101d1-f098-4570-a39a-8f20c8f52edb
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 香港 01【IEPL】
+  type: vmess
+  server: tyl.zgseag.top
+  port: 19501
+  uuid: 6f13a206-9502-4e46-85ae-646d4bff9dbd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 日本丨解GPT
+  type: vmess
+  server: tyl.zgseag.top
+  port: 19503
+  uuid: 6f1ca2ae-e089-4452-922f-ab99f4cbe13a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 美国 01【IEPL】
+  type: vmess
+  server: tyl.zgseag.top
+  port: 49504
+  uuid: 34cd7abf-ebd5-48b9-85d6-61d66106b7fd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 美国 02【IEPL】
+  type: vmess
+  server: tyl.zgseag.top
+  port: 49512
+  uuid: 0ea504f1-9f32-4809-83b2-84be913788b1
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 日本原生ip
+  type: vmess
+  server: tyl.zgseag.top
+  port: 49515
+  uuid: fa8cb6df-8149-4a2c-be91-693a9296d95e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: 新加坡解GPT
+  type: vmess
+  server: tyl.zgseag.top
+  port: 49513
+  uuid: d5ad6b7f-7498-457f-aba9-77c2340167d0
   alterId: 0
   cipher: auto
   udp: true
@@ -3344,61 +3465,6 @@ proxies:
   port: 11210
   uuid: 13b3ace6-bd51-3eda-a473-7176c7e468dd
   alterId: 2
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: 香港 01【IEPL】
-  type: vmess
-  server: tyl.zgseag.top
-  port: 19501
-  uuid: 8671191a-9165-49f9-8e84-0df65fb634f4
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: 香港 01【IEPL】
-  type: vmess
-  server: tyl.zgseag.top
-  port: 19501
-  uuid: 14b1829f-cfb8-48b5-8660-c86f3afecfd4
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: 美国 01【IEPL】
-  type: vmess
-  server: tyl.zgseag.top
-  port: 49504
-  uuid: 9428e4b9-a7b5-4f5f-b9f3-88d7e6019267
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: 新加坡解GPT
-  type: vmess
-  server: tyl.zgseag.top
-  port: 49513
-  uuid: 25e105eb-fb2a-4752-94c1-c750de1890e6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: 马来西亚丨解GPT
-  type: vmess
-  server: tyl.zgseag.top
-  port: 49517
-  uuid: 51e68563-a135-42a1-b19f-d81913217ae2
-  alterId: 0
   cipher: auto
   udp: true
   tls: false
@@ -3493,16 +3559,16 @@ proxy-groups:
   - KR-韩国-快速专线2
   - RU-土耳其-快速专线1
   - RU-土耳其-快速专线2
-  - us3
-  - us_south_west
-  - ca_vancouver
-  - uk
-  - us-newjersey
   - nl_amsterdam
-  - us_seattle
+  - us_south_west
+  - uk
   - japan
+  - ca_vancouver
+  - us3
   - uk_manchester
+  - us_seattle
   - swiss
+  - us-newjersey
   - 🇳🇱 荷兰-V6|03 0.5x-1B
   - 🇹🇼 台湾中华电信-100MBPS-1D
   - 🇯🇵 日本-V6|05-1A
@@ -3816,21 +3882,27 @@ proxy-groups:
   - 右上角三个点点更新订阅
   - 正下方显示成功后再连接
   - 个别线路无法使用自行更换
-  - 感谢您的支持和厚爱
-  - 日本原生ip
+  - 严禁发表/转发不当内容
+  - 严格遵守当地法律法规
+  - 感谢您的支持和厚爱!
+  - 新加坡丨解GPT
   - 美国 01【IEPL】
   - 香港 01【IEPL】
   - 美国 01【IEPL】
   - 美国 02【IEPL】
+  - 香港 01【IEPL】
+  - 日本丨解GPT
+  - 日本原生ip
+  - 香港 01【IEPL】
+  - 日本丨解GPT
+  - 美国 01【IEPL】
+  - 美国 02【IEPL】
+  - 日本原生ip
+  - 新加坡解GPT
   - 韩国chatgpt1
   - 韩国chatgpt2
   - 美国原生
   - 香港1
-  - 香港 01【IEPL】
-  - 香港 01【IEPL】
-  - 美国 01【IEPL】
-  - 新加坡解GPT
-  - 马来西亚丨解GPT
   - V1-美国01
   - V1-香港A
   - V1-香港HKT02
